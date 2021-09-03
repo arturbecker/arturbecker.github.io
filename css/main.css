@@ -1,0 +1,130 @@
+/* SIZE-INVARIANT VARIABLES */
+
+:root {
+  font-size: 62.5%;
+  --line-height-p: 2.4rem;
+  --line-height-caption: 1.6rem;
+  --color-container-background: #ffffff;
+  --color-aegro: #4caf50;
+  --color-inova: #fcca5b;
+  --color-recbot: #5db5db;
+  --color-uid-devices: #49493d;
+  --color-visual-search-interface: #01aef0;
+  /*--color-piper: ;
+    --color-svir: ;*/
+
+  --overlap: -20vh;
+
+  --readable-length: clamp(320px, 90%, 800px);
+
+}
+
+/* SIZE-VARIANT VARIABLES */
+
+:root {
+  --spacing: 32px;
+  --spacing-XXS: 4px;
+  --spacing-XS: 8px;
+  --spacing-S: 16px;
+  --spacing-M: 32px;
+  --spacing-L: 48px;
+  --spacing-XL: 64px;
+  --spacing-XXL: 128px;
+
+  --tile-size: clamp(64px, 8vw, 100px);
+  --card-width: clamp(320px, 64vw, 400px); /* The ratio between card height and width in the vh should match the hardcoded pixels */
+  --card-height: clamp(420px, 80vw, 500px);
+
+  --border-radius: 16px;
+  --border-radius-L: 32px;
+
+  --void: 128px;
+  --silence: 64px;
+  --stillness: 48px;
+  --breathe: 24px;
+  --blink: 16px;
+  --feather: 4px;
+
+  /* TYPE SIZES */
+  --scream: 6.4rem;
+  --shout: 4.8rem;
+
+  --duration-medium: .25s;
+  --duration-long: .3s;
+}
+
+
+/* BREAKPOINT SYSTEM */
+@media (max-width: 768px) {
+  :root {
+    --silence: 32px;
+    --stillness: 24px;
+    --breathe: 12px;
+    --blink: 8px;
+
+    --scream: 4.8rem;
+    --shout: 3.2rem;
+
+    --spacing-XXS: 2px;
+    --spacing-XS: 4px;
+    --spacing-S: 8px;
+    --spacing-M: 16px;
+    --spacing-L: 24px;
+    --spacing-XL: 32px;
+    --spacing-XXL: 64px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.7rem;
+  line-height: var(--line-height-p);
+}
+
+h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: var(--scream);
+  font-weight: 300;
+  letter-spacing: -0.05rem;
+  line-height: 85%;
+}
+
+h3 {
+  font-family: "Work Sans", sans-serif;
+  font-size: var(--shout);
+  font-weight: 300;
+  letter-spacing: -0.05rem;
+}
+
+h6 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.1rem;
+  font-weight: 500;
+  letter-spacing: 0.015rem;
+}
+
+.caption {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: var(--line-height-caption);
+  letter-spacing: 0.04rem;
+  color: #666;
+}
+
+button {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.7rem;
+}
+

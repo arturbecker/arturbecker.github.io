@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artur Becker Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/test.css" />
+    <link rel="stylesheet" href="../css/projects.css" />
+    <link rel="stylesheet" href="../css/sections.css" />
+    <link rel="stylesheet" href="../css/dark-theme.css" />
+    <link rel="stylesheet" href="../css/animations.css" />
+</head>
+
+<body>
+    <main>
+        <aside id="top">
+            <header>
+                <h2>Hi, I'm Artur Becker</h2>
+                <p>
+                    I'm a designer moving between physical and digital products. I am
+                    interested in how design can mitigate risk. Currently UX/UI at CWI
+                    and finishing my Master's in HCI and Data Visualization.
+                </p>
+                <p>these are some of my projects &#x1F449;</p>
+            </header>
+            <footer>
+                <button onclick="location.href='https://www.linkedin.com/in/arturbecker94/'" type="button">
+                    get in touch
+                </button>
+                <p>or keep scrolling for my CV</p>
+            </footer>
+        </aside>
+        <div id="graph">
+            <div class="axis chart" id="y"></div>
+            <div class="axis chart" id="x"></div>
+            <p class="axis-label chart" id="posy">production</p>
+            <p class="axis-label chart" id="posx">digital</p>
+            <p class="axis-label chart" id="negy">concept</p>
+            <p class="axis-label chart" id="negx">physical</p>
+            <div class="tile" id="inova" onmouseenter="openCard(event)" onmouseleave="closeCard(event)"
+                onclick="goToProject(event)">
+                <img src="images/gif03d.gif" alt="">
+                <div class="description">
+                    <div>
+                        <h6>Inova Diamond</h6>
+                        <p>2015</p>
+                    </div>
+                    <p>Product design, geometric flatware designed to not tumble over.</p>
+                </div>
+            </div>
+            <div class="tile" id="uid-devices" onmouseenter="openCard(event)" onmouseleave="closeCard(event)"
+                onclick="goToProject(event)">
+                <img src="images/uid-devices-poster-2.png" alt="">
+                <div class="description">
+                    <div>
+                        <h6>UID Devices</h6>
+                        <p>2015</p>
+                    </div>
+                    <p>A pop-up exhibition for UID'15</p>
+                </div>
+            </div>
+            <div class="tile" id="svir" onmouseenter="openCard(event)" onmouseleave="closeCard(event)"
+                onclick="goToProject(event)">
+                <img src="images/svir-poster.png" alt="">
+                <div class="description">
+                    <div>
+                        <h6>svir.no</h6>
+                        <p>2019</p>
+                    </div>
+                    <p>Prototype on an AI-powered urine test</p>
+                </div>
+            </div>
+            <div class="tile" id="piper" onmouseenter="openCard(event)" onmouseleave="closeCard(event)"
+                onclick="goToProject(event)">
+                <img src="images/piper-matrix.png" alt="">
+                <div class="description">
+                    <div>
+                        <h6>Piper</h6>
+                        <p>2019</p>
+                    </div>
+                    <p>Software for Oil & Gas pipeline design</p>
+                </div>
+            </div>
+            <div class="tile" id="recbot" onmouseenter="openCard(event)" onmouseleave="closeCard(event)"
+                onclick="goToProject(event)">
+                <img src="images/recbot.jpg" alt="">
+                <div class="description">
+                    <div>
+                        <h6>Recbot</h6>
+                        <p>2016</p>
+                    </div>
+                    <p>Product + Interaction design, inertial measuring units for tracking swimming</p>
+                </div>
+            </div>
+            <div class="tile" id="visual-search" onmouseenter="openCard(event)" onmouseleave="closeCard(event)"
+            onclick="goToProject(event)">
+            <img src="images/openingCrop.png" alt="">
+            <div class="description">
+                <div>
+                    <h6>Visual search interface</h6>
+                    <p>2015</p>
+                </div>
+                <p>Interaction design, a modular approach to searching</p>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <section class="two-column">
+        <div>
+        </div>
+        <div>
+            <h2>work</h2>
+        </div>
+    </section>
+
+    <section class="two-column">
+        <div class="caption-column">
+            <p class="caption">BRAZIL</p>
+            <p class="caption">May 2021</p>
+            <p class="caption">Current</p>
+        </div>
+        <div>
+            <h6>Globo - UX Designer at Experimentation and Optimization | Big Data & AI</h6>
+            <p>Working at the largest mass media group in Latin America, designing the experimentation and optimization
+                platform used to test hypotheses
+                and inform decisions across all products of the group.
+            </p>
+        </div>
+    </section>
+
+    <script src="../js/test.js"></script>
+</body>
+
+</html>

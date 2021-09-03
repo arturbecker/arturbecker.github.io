@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recbot</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/test.css" />
+    <link rel="stylesheet" href="../css/project-page.css" />
+    <!--<link rel="stylesheet" href="../css/sections.css" />-->
+    <link rel="stylesheet" href="../css/section-simplified.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/projects.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <main>
+        <div class="tile card hero" id="recbot" onmouseenter="openCard(event)" onmouseleave="closeCard(event)"
+            onclick="goToProject(event)">
+            <img src="images/recbot.jpg" alt="">
+        </div>
+    </main>
+</body>
+
+<section class="description">
+    <div>
+        <h6>Recbot</h6>
+        <p>2016</p>
+    </div>
+    <p>Product + Interaction design, inertial measuring units for tracking swimming</p>
+    </div>
+
+</section>
+
+<section class="content">
+
+    <h3>Enabling modular low-cost recording of swimming</h3>
+    <p>
+        Using a network of inertial sensors, swimmers can record their movement without resorting
+        to bulky multi-camera setups and manual digitalziation. The Double Diamond <a href="#references">[1]</a>
+        methodology, divided in divergent and convergent phases, was used. The first phase is Discovery, where
+        a contextual research is made, and is followed by Define, when a design opportunity
+        is pinpointed.
+    </p>
+
+
+    <img src="/images/posicionamentoCamera1.jpg" alt="" class="full">
+
+    <div class="multi-pane">
+        <div>
+            <h3>Stakeholder mapping</h3>
+            <p>The project started with an immersion into the swimming context, on its professional, amateur and
+                academic spheres. Three major stakeholders/user groups were defined:</p>
+        </div>
+
+        <div class="centered">
+            <h6>discover</h6>
+            <img src="images/triangle.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="multi-pane">
+        <div>
+            <img src="images/nadador-square.jpg" alt="">
+            <h6>1) Swimmers</h6>
+            <p>The primary user group. To get to know this user group, qualitative interviews
+                were conducted with amateur swimmers
+                at a competition.</p>
+        </div>
+        <div>
+            <img src="images/treinador-square.jpg" alt="">
+            <h6>2) Coaches</h6>
+            <p>A secondary user group. A training session of professional swimmers was observed, and
+                the coach interviewed.</p>
+        </div>
+        <div>
+            <img src="images/pesquisador-square.jpg" alt="">
+            <h6>3) Researchers</h6>
+            <p>Another secondary user group. Observation of the process of swimming data collection
+                and analysis was carried to understand the state of the art of the field.</p>
+        </div>
+    </div>
+
+    <div class="multi-pane">
+        <div>
+            <h3>Defining the problem</h3>
+            <p>The findings of user research, backed by desk research on swimming theory, point to
+                swimming technique as the aspect users would benefit the most from accessing quantitative data
+                and visualization <a href="#references">[2]</a>, <a href="#references">[3]</a>. Therefore, the project
+                objective became:
+                <span class="highlight-1">"Provide relevant information
+                    about the athletes swimming technique, to enhance his or hers performance"</span>.
+            </p>
+        </div>
+
+        <div class="centered">
+            <img src="images/triangle2.png" alt="">
+            <h6>define</h6>
+        </div>
+    </div>
+
+    <div class="full">
+        <h6>The second diamond</h6>
+        <p>Discover and Define are followed by the divergent Develop phase, where ideation on a concept
+            is made, followed by a convergent Deliver phase where it's scope is settled and it is
+            prepared for shipping or production.</p>
+    </div>
+
+    <div class="multi-pane">
+        <div>
+            <h3>Analyzing competing products</h3>
+            <p>After defining the problem to be tackled, an analysis of products that tried to accomplish this
+                same task was conducted.
+                The products and systems that could enable users to visualize their swimming technique as well
+                as provide quantitative data on performance could be divided into two main groups:
+            </p>
+        </div>
+
+        <div class="centered">
+            <h6>develop</h6>
+            <img src="images/triangle.png" alt="">
+        </div>
+    </div>
+
+    <div class="multi-pane">
+        <div>
+            <img src="images/similarvideo.jpg" alt="">
+            <h6>Videogrametry</h6>
+            <p>Camera-based systems, as the one observed in the user research phase, that film the athletes
+                movement through multiple perspectives and digitalize it into a tridimensional representation, or, if
+                only
+                one camera is used, offers simple playback. Water bubbles and refraction diminish the acuracy of
+                underwater
+                cameras.</p>
+        </div>
+        <div>
+            <img src="images/similarins.jpg" alt="">
+            <h6>Inertial sensors</h6>
+            <p>Based on miniaturized accelerometer and gyroscopes, also known as MEMS, these are used in fitness
+                trackers to provide metrics on user movement. In one product they were used
+                concatenated, providing full-body motion capture.</p>
+        </div>
+    </div>
+
+    <h3>Ideation and selection</h3>
+    <img class="full" src="images/recbotalternativas.jpg" alt="">
+    <p>Adding to the similar products research, alternative solutions were brainstormed.
+        The main three alternatives groups could be clustered in:</p>
+
+    <div class="multi-pane">
+        <div>
+            <img src="images/altsoundCrop.jpg" alt="">
+            <h6>1) Ultrassound system</h6>
+            <p>A set of ultrassound or similar waves transceivers would be placed on the
+                pool, and another on the swimmers body, to capture the movement. It was not used because the
+                air-water change of medium rendered the time-of-flight of the waves unreliable.</p>
+        </div>
+        <div>
+            <img src="images/altvideoCrop.jpg" alt="">
+            <h6>2) Facilitated videogrametry</h6>
+            <p>Inspired on the present state-of-art, a number of alternatives to make it
+                the system easier to assemble or permitting the automation of digitalization were proposed. However,
+                they
+                still relied on the multi-camera setup that was found too difficult to be applied in the first
+                place by all stakeholders but the researchers.</p>
+        </div>
+        <div>
+            <img src="images/altinsCrop.jpg" alt="">
+            <h6>3) Inertial sensors</h6>
+            <p>A network of inertial sensors, in form of a swimming vest or set of
+                modular straps would record the motion that then could be visualized on a third-party device
+                such as a computer or smartphone, with appropriate software.</p>
+        </div>
+    </div>
+
+    <h3>Employing user research to back up design decisions</h3>
+    <p> The user needs that surfaced during research were translated into project requirements, that
+        were then weighted acording to the number of stakeholder groups that had them. This way,
+        the similar products and generated alternatives could be scored as to how closely they attend these needs.
+        <span class="highlight-1">The modular wearable of inertial sensors fared the best
+            on the comparison, and thus was taken into further development.</span>
+    </p>
+
+    <h3>Usage scenarios</h3>
+    <p>The scope of the project encompassed the specification of a physical product, as well as the
+        logical definition of the system and user experience. To inform the creation of these, three
+        usage scenarios were explored:</p>
+
+    <div class="multi-pane">
+        <div>
+            <img src="images/recbotscenario1.jpg" alt="">
+            <h6>1) Single user</h6>
+            <p>A swimmer buys from one to fifteen modules (number used to record the most relevant
+                body segments) to capture his own movement.</p>
+        </div>
+        <div>
+            <img src="images/recbotscenario2.jpg" alt="">
+            <h6>2) Solidary users</h6>
+            <p>A group of swimmers buys one module each, to use as fitness trackers, and eventually
+                comes together to record their full body motion using their modules in tandem..</p>
+        </div>
+        <div>
+            <img src="images/recbotscenario3.jpg" alt="">
+            <h6>3) Service users</h6>
+            <p>A coach or swimming school buys one or more sets of modules, and use them to
+                record students movement during class.</p>
+        </div>
+    </div>
+
+    <p>From these scenarios, a generic, all-encompassing flowchart of the product part of
+        the system was devised.
+        Then, a table of states, actions, errors and solutions was developed in order to shed light
+        into the design solution through an interaction point of view <a href="#references">[4]</a>.</p>
+
+    <img class="full" src="images/moduleflow.png" alt="">
+
+    <div class="multi-pane">
+        <div>
+            <h3>Defining the product subsystems</h3>
+            <p>Informed by the usage flowchart and table, several subsystems of the product were devised and
+                developed.</p>
+        </div>
+        <div class="centered">
+            <img src="images/triangle2.png" alt="">
+            <h6>deliver</h6>
+        </div>
+    </div>
+
+    <img src="images/subsystemTranslate.png" alt="">
+    <img src="images/subsystemTranslate2.png" alt="">
+
+    <div class="multi-pane">
+        <div>
+            <h3>Software flowchart</h3>
+            <p>
+                Also, a usage flowchart for the product software was created, containing all the actions and
+                responses needed for the system to work. The coding of the software however, was out of the
+                projects scope.
+            </p>
+        </div>
+        <div>
+            <img src="images/appflow.jpg" alt="">
+        </div>
+    </div>
+
+
+
+    <h3>The Recbot</h3>
+    <p>The Recbot is a modular system for motion capture comprised of one or more modules to be worn on
+        the body segments: hands, arms, forearms, legs, forelegs, feet, waist, chest and head. Creating
+        an ad hoc Bluetooth low-energy network, the data (acceleration and angular velocity) of all the
+        sensors, recorded internally, can be transferred to a third-party device that processes and
+        concatenates all of it. Thus, it can later be used to animate a 3D rigged character, for movement
+        visualization, or provide metrics on the performance (such as speed, stroke count and stroke lenght).</p>
+
+    <img class="with-caption" src="images/recbotmockup.png" alt="">
+    <p>A 3D-printed mockup of the Recbot (in orange), strapped to my wrist</p>
+
+    <div class="multi-pane">
+        <div>
+            <div class="sketchfab-embed-wrapper"> <iframe title="Recbot: Outside view" frameborder="0" allowfullscreen
+                    mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr"
+                    xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
+                    src="https://sketchfab.com/models/36ae27808ad2403485fb89b91972aadb/embed"> </iframe> </div>
+            <h6>Outside view</h6>
+            <p>The outside of the recbot is modelled to guide the user on the right way to position it on his or her
+                body.
+                Special attention was paid to this point because
+                the modules have to placed in a specific orientation in order for the centralized data to work
+                correctly. <a href="https://sketchfab.com/models/36ae27808ad2403485fb89b91972aadb">See in interactive
+                    3D</a>.</p>
+        </div>
+        <div>
+            <div class="sketchfab-embed-wrapper"> <iframe title="Recbot: Inside view, top" frameborder="0"
+                    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
+                    allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport
+                    execution-while-not-rendered web-share
+                    src="https://sketchfab.com/models/6272b35b86034e649a71fcb99ab88cec/embed"> </iframe> </div>
+            <h6>Inside view, top</h6>
+            <p class="text">The outer face of the printed circuit board (PCB) inside the Recbot contains the inertial
+                sensor, microcontroller and LED. they were organised this way to minimize the
+                volume and footprint of the board. <a
+                    href="https://sketchfab.com/models/6272b35b86034e649a71fcb99ab88cec">See in interactive 3D</a>.
+            </p>
+        </div>
+        <div>
+            <div class="sketchfab-embed-wrapper"> <iframe title="Recbot: Inside view, bottom" frameborder="0"
+                    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
+                    allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport
+                    execution-while-not-rendered web-share
+                    src="https://sketchfab.com/models/88bb49e996eb429c93119e121e3c1a70/embed"> </iframe> </div>
+            <h6>Inside view, bottom</h6>
+            <p class="text">On the inner face of the circuit board are the microSD card slot that keeps the recorded
+                data
+                locally before Bluetooth transfer, battery, buzzer and switch.
+                <a href="https://sketchfab.com/models/88bb49e996eb429c93119e121e3c1a70">See in interactive 3D</a>.
+            </p>
+        </div>
+    </div>
+
+</section>
+
+<section class="content outro">
+    <h3>Lessons learned</h3>
+    <p>My Bachelor thesis project allowed me to join the overall design process with a deeper understanding
+        of technical development, through a holistic approach
+        While the overarching Double Diamond method is employed, other specific methods, such as Garret's
+        Elements of user Experience, and wearable development methodologies were consulted <a
+            href="#references">[5]</a>.
+        This way, I tried
+        to ensure the most impactful project for the users, while accounting for the technologic
+        possibilities.<br><br>
+        The full text of my thesis (in portuguese), containing the unabridged references list, can be downloaded <a
+            href="../images/arturBeckerThesisPortuguese.pdf">here</a>.</p>
+
+    <h3 id="references">References</h3>
+    <p>[1] <a href="http://www.designcouncil.org.uk/resources/report/11-lessons-managing-design-global-brands">DESIGN
+            COUNCIL, Eleven lessons: managing design in eleven global brands.</a></p>
+    <p>[2] ERNEST MAGLISCHO, Swimming Fastest, 2010</p>
+    <p>[3] BÄCHLIN, M.; TRÖSTER, G. Swimming performance and technique evaluation with wearable
+        acceleration sensors. Pervasive and Mobile Computing, Elsevier, v. 8, n. 1, p. 68–81, 2012</p>
+    <p>[4] GARRETT, J. J. Elements of user experience, the: user-centered design for the web and beyond.
+        [S.l.]: Pearson Education, 2010.</p>
+    <p>[5] AU, L. et al. Design of wireless health platforms. In: Wearable Monitoring Systems. [S.l.]:
+        Springer, 2011. p. 81–97.</p>
+</section>
+
+
+<footer>
+    <a href="test.html">Back to projects</a>
+    <a href="#">Back to top</a>
+</footer>
+
+</body>
+
+</html>

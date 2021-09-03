@@ -1,0 +1,151 @@
+#inova {
+    background-color: #fcca5b;
+}
+
+#inova.tile {
+    left: 10%;
+    top: 10%;
+    background-image: url(../images/thumbs/inova2.jpg);
+    background-size: cover;
+}
+
+#inova.card {
+    background-image: none;
+}
+
+#inova.hero {
+    left: 0px;
+    top: 0px;
+}
+
+#inova.hero img {
+    width: unset;
+    height: 80%;
+}
+
+#inova.hero .description{
+    transform: translate(-50%, 0);
+}
+
+/*#uid-devices {
+    background-color: #fcca5b;
+}*/
+
+#uid-devices.tile {
+    left: 30%;
+    top: 40%;
+    background-image: url(../images/thumbs/uiddevices.jpg);
+    background-size: cover;
+}
+
+#uid-devices.card {
+    background-image: none;
+}
+
+#uid-devices.card img {
+    transform: translate(-22%, 0);
+}
+
+#uid-devices.hero {
+    left: 0px;
+    top: 0px;
+}
+
+#uid-devices.hero img {
+    transform: translate(0%, 0%);
+}
+
+/*#svir {
+    background-color:gray;
+}*/
+
+#svir.tile {
+    left: 50%;
+    top: 40%;
+    background-image: url(../images/thumbs/svir.png);
+    background-size: cover;
+}
+
+#svir.card {
+    background-image: none;
+}
+
+#svir.hero {
+    left: 0px;
+    top: 0px;
+}
+
+#svir.hero img {
+    width: 100%;
+}
+
+#piper.tile {
+    left: 80%;
+    top: 20%;
+    background-image: url(../images/piper-card.png);
+    background-size: cover;
+}
+
+#piper.card {
+    background-image: none;
+}
+
+#piper.hero {
+    left: 0px;
+    top: 0px;
+}
+
+#piper.hero img {
+    width: 100%;
+}
+
+#recbot.tile {
+    left: 30%;
+    top: 70%;
+    background-image: url(../images/thumbs/recbot.jpg);
+    background-size: cover;
+}
+
+#recbot.card {
+    background-image: none;
+}
+
+#recbot.card img {
+    transform: translate(-22%, 0%);
+}
+
+#recbot.hero {
+    left: 0px;
+    top: 0px;
+}
+
+#recbot.hero img {
+    width: 100%;
+    transform: translate(0%, 0%);
+}
+
+#visual-search.tile {
+    left: 80%;
+    top: 70%;
+    background-image: url(../images/thumbs/visualsearch.jpg);
+    background-size: cover;
+}
+
+#visual-search.card {
+    background-image: none;
+    background-color: var(--color-visual-search-interface);
+}
+
+#visual-search.card img {
+    transform: translate(-22%, 0%);
+}
+
+#visual-search.hero {
+    left: 0px;
+    top: 0px;
+}
+
+#visual-search.hero img {
+    width: 100%;
+    transform: translate(0%, 0%);
+}

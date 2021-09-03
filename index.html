@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artur Becker Portfolio</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/graph.css" />
+    <link rel="stylesheet" href="../css/card.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      
+      <div class="card closed" id="aegroCard">
+        <div class="imgContainer">
+          <img src="" alt="" />
+        </div>
+        <a href="aegro.html">
+          <div class="description">
+            <h6>Aegro</h6>
+            <p>
+              UX/UI Design, a Software as a Service farm management platform
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="card closed" id="inovaCard">
+        <div class="imgContainer">
+          <img
+            src="../images/gif03d.gif"
+            alt="The Inova Diamond fork spinning round"
+          />
+        </div>
+        <a href="inova.html">
+          <div class="description">
+            <h6>Inova Diamond</h6>
+            <p>
+              Product design, geometric flatware designed to not tumble over.
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="card closed" id="piperCard">
+        <div class="imgContainer">
+          <img src="" alt="" />
+        </div>
+        <a href="piper.html">
+          <div class="description">
+            <h6>Piper</h6>
+            <p>UX/UI Design, creating a new way to design rigid pipelines</p>
+          </div>
+        </a>
+      </div>
+      <div class="card closed" id="recbotCard">
+        <div class="imgContainer">
+          <img src="../images/thumbs/recbot.jpg" alt="" />
+        </div>
+        <a href="recbot.html">
+          <div class="description">
+            <h6>Recbot</h6>
+            <p>Product + Interaction design, my Bachelor thesis.</p>
+          </div>
+        </a>
+      </div>
+      <div class="card closed" id="svirCard">
+        <div class="imgContainer">
+          <img src="" alt="" />
+        </div>
+        <a href="svir.html">
+          <div class="description">
+            <h6>Svir</h6>
+            <p>
+              UX/UI + Product Design, designing an urine test and an app for
+              reading it (powered by AI)
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="card closed" id="uid-devicesCard">
+        <div class="imgContainer">
+          <img src="../images/thumbs/uiddevices.jpg" alt="" />
+        </div>
+        <a href="uiddevices.html">
+          <div class="description">
+            <h6>UID Devices</h6>
+            <p>Product + Interaction design, a pop-up exhibition for UID'15.</p>
+          </div>
+        </a>
+      </div>
+      <div class="card closed" id="visual-search-interfaceCard">
+        <div class="imgContainer">
+          <img src="../images/thumbs/visualsearch.jpg" alt="" />
+        </div>
+        <a href="visualsearch.html">
+          <div class="description">
+            <h6>Visual Search Interface</h6>
+            <p>Interaction design, a modular approach to searching.</p>
+          </div>
+        </a>
+      </div>
+      
+      <aside id="top">
+        <header>
+          <h2>Hi, I'm Artur Becker</h2>
+          <p>
+            I'm a designer moving between physical and digital products. I am
+            interested in how design can mitigate risk. Currently UX/UI at CWI
+            and finishing my Master's in HCI and Data Visualization.
+          </p>
+          <p>these are some of my projects &#x1F449;</p>
+        </header>
+        <footer>
+          <button
+            onclick="location.href='https://www.linkedin.com/in/arturbecker94/'"
+            type="button"
+          >
+            get in touch
+          </button>
+          <p>or keep scrolling for my CV</p>
+        </footer>
+      </aside>
+      
+      <div id="graph">
+        <div class="axis" id="y"></div>
+        <div class="axis" id="x"></div>
+        <p class="axis-label" id="posy">production</p>
+        <p class="axis-label" id="posx">digital</p>
+        <p class="axis-label" id="negy">concept</p>
+        <p class="axis-label" id="negx">physical</p>
+        <div id="tile-container">
+          <div class="grid-item" id="cell-inova">
+            <div
+              class="tile"
+              id="inova"
+              onmouseenter="openCard(event)"
+              onmouseleave="closeCard(event)"
+            ></div>
+          </div>
+          <div class="grid-item" id="cell-aegro">
+            <div
+              class="tile"
+              id="aegro"
+              onmouseenter="openCard(event)"
+              onmouseleave="closeCard(event)"
+            ></div>
+          </div>
+          <div class="grid-item" id="cell-piper">
+            <div
+              class="tile"
+              id="piper"
+              onmouseenter="openCard(event)"
+              onmouseleave="closeCard(event)"
+            ></div>
+          </div>
+          <div class="grid-item" id="cell-uid-devices">
+            <div
+              class="tile"
+              id="uid-devices"
+              onmouseenter="openCard(event)"
+              onmouseleave="closeCard(event)"
+            ></div>
+          </div>
+          <div class="grid-item" id="cell-svir">
+            <div
+              class="tile"
+              id="svir"
+              onmouseenter="openCard(event)"
+              onmouseleave="closeCard(event)"
+            ></div>
+          </div>
+          <div class="grid-item" id="cell-recbot">
+            <div
+              class="tile"
+              id="recbot"
+              onmouseenter="openCard(event)"
+              onmouseleave="closeCard(event)"
+            ></div>
+          </div>
+          <div class="grid-item" id="cell-visual-search-interface">
+            <div
+              class="tile"
+              id="visual-search-interface"
+              onmouseenter="openCard(event)"
+              onmouseleave="closeCard(event)"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+      <div class="curriculum">
+      <div class="item">
+        <div class="itemCaption"></div>
+        <div class="itemMain">
+          <h2>work</h2>
+        </div>
+      </div>
+      <div class="item">
+        <div class="itemCaption">
+          <p class="caption">BRAZIL</p>
+          <p class="caption">Sep. 2020</p>
+          <p class="caption">Current</p>
+        </div>
+        <div class="itemMain">
+          <h6>CWI Software - UX/UI Designer</h6>
+          <p class="itemDescription">
+            Designing digital experiences for multiple clients, working at a large software consultancy company. Balancing agile methods and UX. Building and mantaining design systems.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="itemCaption">
+          <p class="caption">NORWAY</p>
+          <p class="caption">Jun. 2019</p>
+          <p class="caption">Aug. 2019</p>
+        </div>
+        <div class="itemMain">
+          <a href="piper.html"><h6>TechnipFMC - UX/UI Design Summer Intern</h6></a>
+          <p class="itemDescription">
+            Reinventing rigid pipeline design as an User Experience designer at
+            TechnipFMC, department of Digital Services and Innovation. A summer
+            internship where I worked in close collaboration with a fellow
+            designer and two developers to devise - from scratch - a new way to
+            design hydrocarbon-carrying pipelines.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="itemCaption">
+          <p class="caption">BRAZIL</p>
+          <p class="caption">May 2017</p>
+          <p class="caption">Jul. 2018</p>
+        </div>
+        <div class="itemMain">
+          <a href="aegro.html"><h6>Aegro - Lead UX Designer</h6></a>
+          <p class="itemDescription">
+            As Aegro's first designer (and later, with the team growing to 5
+            people, first Lead Designer), I had a fast-growing farm management
+            product to 1) help reshape and rework where needed, given that it
+            was already a fully-functioning product when I arrived; and 2) grow
+            according to a design vision that we couldn't really point our
+            fingers to yet. While I worked at Aegro, it multiplied it's
+            headcount threefold. Our user base growth gained traction, and our
+            product expanded greatly. Our design research process spanned giving
+            support to high-ticket clients, flying across the country for field
+            visits, reading the occasional farm-management manual and calling
+            long-time farmers to test interactive prototypes or conduct
+            interviews. Mapping these insights into the inner-workings of our
+            software gave way to fruitful discussions of heuristics and system
+            design between designers and developers. Most of my work was done
+            with human interaction, pen and paper, Productboard and Figma.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="itemCaption">
+          <p class="caption">BRAZIL</p>
+          <p class="caption">Jun. 2016</p>
+          <p class="caption">Sep. 2016</p>
+        </div>
+        <div class="itemMain">
+          <h6>VALKIRIA Inteligência Criativa - Product Design Intern
+           </h6>
+          <p class="itemDescription">
+            Product Design intern focusing on the development of consumer products: user research, sketching, CAD modelling and making client presentations.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="itemCaption">
+          <p class="caption">BRAZIL</p>
+          <p class="caption">Sep. 2015</p>
+          <p class="caption">Dec. 2015</p>
+        </div>
+        <div class="itemMain">
+          <a href="inova.html"><h6>Grupo Criativo - Product Design Intern</a>
+           </h6>
+          <p class="itemDescription">
+            Product design internship working with a broad range of consumer products: from flatware to artisanal bread making. Working on the entire process, from user research, ideation, sketching, CAD modelling and rendering to prototyping and putting together presentations for the clients.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="itemCaption">
+          <p class="caption">SWEDEN</p>
+          <p class="caption">Jul. 2015</p>
+          <p class="caption">Oct. 2015</p>
+        </div>
+        <div class="itemMain">
+          <a href="visualsearch.html"><h6>Remus Technologies - Awardee and Interaction Designer
+          </h6></a>
+          <p class="itemDescription">
+            Interaction Design for a novel library search interface. It was initially a student project, but got awarded and acquired by Remus at a Digital Innovation competition among Umeå University students.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="itemCaption"></div>
+        <div class="itemMain">
+          <h2>study</h2>
+        </div>
+      </div>
+      <div class="item">
+        <div class="itemCaption">
+          <p class="caption">BRAZIL</p>
+          <p class="caption">Mar. 2018</p>
+          <p class="caption">Current</p>
+        </div>
+        <div class="itemMain">
+          <h6>Universidade Federal do Rio Grande do Sul - Master in Computer
+            Science</h6>
+          <p class="itemDescription">
+            Carrying out research in Information Visualization, Human-Computer Interaction and Deep Learning. Focus on novel forms of evaluating usability for AR and VR.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="itemCaption">
+          <p class="caption">NORWAY</p>
+          <p class="caption">Aug. 2018</p>
+          <p class="caption">Jun. 2019</p>
+        </div>
+        <div class="itemMain">
+          <h6>Universitet i Oslo - Master in Computer Science</h6>
+          <p class="itemDescription">
+            Full scholarship exchange. Working with Motion Capture and Deep Learning at RITMO Norwegian centre of excellence. <a href="https://doi.org/10.1145/3347122.3347135">Research paper on functional data analysis of rowing</a> presented at MOCO'19.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="itemCaption">
+          <p class="caption">BRAZIL</p>
+          <p class="caption">Mar. 2011</p>
+          <p class="caption">Dec. 2016</p>
+        </div>
+        <div class="itemMain">
+          <a href="recbot.html"><h6>Universidade Federal do Rio Grande do Sul - Bachelor in Product Design</h6></a>
+          <p class="itemDescription">
+            Bachelor in Product Design with an exchange year in Sweden.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="itemCaption">
+          <p class="caption">SWEDEN</p>
+          <p class="caption">Aug. 2014</p>
+          <p class="caption">Jul. 2015</p>
+        </div>
+        <div class="itemMain">
+          <h6>Umeå Institute of Design - Industrial Design Intensive</h6>
+          <p class="itemDescription">
+            Exchange year with a full scholarship through the Science without Borders program. The one-year program gave a broad and practical introduction to Product, Transportation, Interaction and Service design.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <a href="#top"><h6>&#x1F446; Back to top</h6></a>
+    </footer>
+  
+    <script src="../js/index.js"></script>
+  </body>
+</html>

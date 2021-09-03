@@ -1,0 +1,45 @@
+.card {
+    width: var(--card-width);
+    background: white;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    color: black;
+  }
+
+  .card a {
+    text-decoration: none;
+  }
+  
+  .imgContainer {
+    text-align: center;
+    height: var(--card-width);
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+  }
+  
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card .description {
+    padding: 16px 24px 24px;
+  }
+  
+  .description > h6 {
+    margin-bottom: 4px;
+  }
+  
+  .card.closed {
+    visibility: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+#aegroCard .imgContainer {
+}
+
+  #inovaCard .imgContainer {
+    background-color: var(--color-inova);
+  }

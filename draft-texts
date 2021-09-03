@@ -1,0 +1,317 @@
+<h2>svir.no</h2>
+      <p>Prototype of an AI-powered urine test app for detecting UTI at home
+        <h6>Role in the project</h6>
+        <p>Product discovery and prototype testing as the projects’ sole researcher/designer</p>
+      <h6>Methods</h6>
+      <p><span>Experience mapping:</span> both assumption-based and post-research;
+        <br>
+        <span>Customer interviews:</span> interviewing potential customers to understand their UTI stories and discover
+        opportunities;
+        <br>
+        <span>Facilitation:</span> Workshop to explicit and align the objectives of the team (using exercises from
+        Google Ventures Brand Sprint);
+        <br>
+        <span>Prototyping:</span> and testing the experience of taking the test - using a physical card and a smartphone
+        app;
+      </p>
+      </p>
+    </div>
+    <div class="narrative">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <img src="images/svircard.jpg" alt="">
+    </div>
+
+    
+
+	<div id="content">
+		<div id="red">
+			<h2 class="inlineh2" id="postitle">
+				DEVICE INTERACTION GARNERING HUMAN INTERACTION
+			</h2>
+			<div class="inline">
+				<div class="column">
+					<h3 class=paratitle>
+						UID Yearly events are often home to an anxious lot. With this in mind, and in order to engage
+						the public in a pop-up exhibition, we designed
+						the UID Devices.
+					</h3>
+				</div>
+				<div class="column"></div>
+
+			</div>
+
+			<div class="inline">
+				<div class="column">
+					<h2 class="inlineh2">
+						THE USERS
+					</h2>
+					<h3 class=paratitle>
+						People attending UID'15. Especially students presenting thesis projects, or people
+						eager to network, that might be feeling anxious and stage-frightened.
+					</h3>
+				</div>
+				<div class="column">
+
+				</div>
+			</div>
+
+			<div class="inline">
+				<div class="column">
+					<h2 class="inlineh2">
+						THE NEEDS
+					</h2>
+					<h3 class=paratitle>
+						Having had presentation classes (and classes with presentations) throughout the year,
+						we were able to spot common afflictions to a person speaking publicly.
+					</h3>
+				</div>
+				<div class="column">
+
+				</div>
+			</div>
+
+			<h2 class="inlineh2">
+				IDEATION
+			</h2>
+			<div class="inline" id="preimg">
+				<div class="column">
+					<h3 class=paratitle>
+						We chose three question that seemed the most common: How do I look? Am I being heard? Are my
+						hands shaking?
+						If people could have an answer to these questions, perhaps they'd be a little less
+						anxious before presenting or talking to someone.
+					</h3>
+				</div>
+				<div class="column"></div>
+
+			</div>
+
+			<div class="inline" id="preimg">
+				<div class="column">
+					<h2 class="inlineh2">
+						CONCEPT
+					</h2>
+					<h3 class=paratitle>
+						The main attributes for the devices "personality" were guided by the needs of the public:
+						anxious users would benefit from <span id="green">soothing and reassuring answers</span>; <span
+							id="pink">funny</span> answers could also help to break the ice. At the same time, these
+						answers should <span id="yellow">spark interaction</span> between atendess.
+
+						<br><br>
+						This attributes are reached by the design through the semantics of the given answers: they're
+						reassuring because <span id="green">"low markings" are delivered with a kind tone</span>; also,
+						the hyperbolic
+						nature of the <span id="pink">"top markings" are non-sensical and fun</span>. The <span
+							id="yellow">gamification of the ranking system</span> sparks interaction between atendees,
+						as they feel compelled to "challenge" each other.
+					</h3>
+				</div>
+				<div class="column">
+					<h2 id="spanh2"><span id="green">REASSURING</span>,</h2>
+					<h2 id="spanh2"><span id="pink">FUNNY</span> + </h2>
+					<h2 id="spanh2"><span id="yellow">SPARK INTERACTION</span></h2>
+				</div>
+			</div>
+
+			<div class="inline3">
+				<div class="column3">
+					<img class="img" src="../images/voiceinspectorCrop.jpg"></img>
+					<h3 class="paratitlecenter">NO. 1 - Voice Inspector
+					</h3>
+					<p class="text">
+						Built with a microhpone inside, it ranks the volume of the voice of a person talking in front of
+						it.
+						The minimum value - "lovely whisper" - aims to be kind instead of accusing.
+
+					</p>
+				</div>
+				<div class="column3">
+					<img class="img" src="../images/looksinspectorCrop.jpg"></img>
+					<h3 class="paratitlecenter">NO. 2 - Looks Inspector
+					</h3>
+					<p class="text">
+						With a presence detector and a mirror, it tells the person standing in front of it wheter he
+						or she look OK. In fact, it only randomly blinks green or yellow (67% and 33% odds), but the
+						red was kept there so people can feel reassured they didn't get it.
+					</p>
+				</div>
+				<div class="column3">
+					<img class="img" src="../images/stressinspectorCrop.jpg"></img>
+					<h3 class="paratitlecenter">NO. 3 - Stress inspector</h3>
+					<p class="text">
+						A game where the user tries to bring the key from one end of the rail to the other without
+						touching,
+						and can check his or her score along the markings, to compare and challenge others.
+
+					</p>
+				</div>
+			</div>
+
+			<!-- triple inline here -->
+
+			<h2 class="inlineh2" id="postitle">
+				EXECUTION
+			</h2>
+			<div class="inline" id="preimg">
+				<div class="column">
+					<h3 class=paratitle>
+						The devices were hung on the entrance foyer wall of the Umea Institute of Design during it's
+						annual event in 2015: UID'15. The video below documents the process as well as the public
+						response
+						to them.
+					</h3>
+				</div>
+				<div class="column"></div>
+			</div>
+
+
+		</div>
+		<iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/7UExyGUW9SI?rel=0" frameborder="0"
+			allowfullscreen></iframe>
+		<p class="text"></p>
+		<div class=divider></div>
+		<div class=subdivider></div>
+
+		<h2 id="conclusion">ROLE IN THE PROJECT AND FINAL THOUGHTS</h2>
+		<h3 class=paratitlecenter>The project was done during the Industrial Design Intensive programme at UID, by me
+			and Felix Noller.</h3>
+		<p class="text">
+			The inception of the devices came from Felix, who then approached me to tinker the concept together. Later,
+			Felix handled the Arduino programming and I took care
+			of the witty labelling for the scores, as well as the closing circuit game. With the footage captured
+			by both of us, I edited the project video on Blender.
+		</p>
+		<div class=divider></div>
+		<div class=subdivider></div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INOVA
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div id="content">
+		<h2>
+			FUTURISTIC,<br />"FLOATING"<br />FLATWARE
+		</h2>
+		<h3 class=paratitlecenter>
+			Inova Diamond is a flatware series designed for a large brazilian manufacturer.
+		</h3>
+		<p class="text">The Inova line bestows the feature of preventing the blade of the silverware from
+			touching the surface beneath it. The Diamond models, thus, keep such feature while being
+			reshaped with a completely different design language. The main goal of this project
+			was to aid the manufacturer to position a simple, low cost polymer flatware
+			as innovative and premium.
+		</p>
+		<p class="imgholder01" id="img01"><img id="renderCinza" src="../images/renderCinzaSombra.png"></img></p>
+		<div class=divider></div>
+		<div class=subdivider></div>
+		<div id=red>
+			<h2 class=inlineh2>
+				DESIGNING THE DIAMOND
+			</h2>
+			<div class=inline>
+				<div class=column>
+					<img class="img" id="diamondBack" src="../images/diamondBack.png"></img>
+				</div>
+				<div class=column>
+					<h3 class=paratitle>The geometric lines culminate in the diamond-shaped back of the grip</h3>
+					<p class="imgtext">The reasoning behind choosing a mostly geometric, polygonal design language was
+						to deviate from <a href="../images/inovadplus.png">the previous Inova line</a>, and most similar
+						products for that matter,
+						that employ curved, organic forms on the grips. It has a similar mass to its predecessor, not
+						increasing manufacturing costs.
+					</p>
+				</div>
+			</div>
+			<div class=inline>
+				<div class=column id=blowup>
+					<img class="imgliquid" src="../images/trianglesMedium.png"></img>
+					<div class=pointer id=pointer01>
+						<hr>
+						<p>a</p>
+					</div>
+					<div class=pointer id=pointer02>
+						<hr>
+						<p>b</p>
+					</div>
+				</div>
+				<div class=column>
+					<h3 class=paratitle>Organic doesn't necessarily mean "ergonomic", and vice-versa</h3>
+					<p class="imgtext">During the ideation phase, the main theoretical touchstone was brazilian
+						ergonomist Itiro Iida's chapter on
+						grips and small utensils, where it's pointed out that while geometrically shaped grips
+						might not seem anatomical at first, they are well suited for longer handling periods
+						with low force exertion, because they allow for multiple hand positions (more
+						anatomically resembling grips, however, are better suited for shorter, higher force usage)
+						<a href=#references>[1]</a>. A live example of such concept is <a
+							href="http://konstantin-grcic.com/resources/534.jpg">the chair _ONE</a>, by Konstantin
+						Grcic.<br><br>The dimensions of faces (a) and (b) - the only in contact with the surface below -
+						were
+						finetuned through several rapid prototyping iterations, to find the optimal trade-off between
+						stability
+						and handling comfort.
+					</p>
+				</div>
+			</div>
+
+			<div class=imgholder02><img class="img" src="../images/prototipos10.jpg"></img></div>
+			<h3 class=paratitlecenter>Prototyping was crucial to find a pleasant grip that still wouldn't tumble over
+			</h3>
+			<p class="text">The sequential iterations of the grip design (from top to bottom) were 3D printed in two
+				halves, and had blades provided by the manufacturer attached to one end.
+				The last one, in black, is an injection test. The prototypes were then brought to lunch at restaurants,
+				to be tested.
+			</p>
+			<div class=divider></div>
+			<div class=subdivider></div>
+		</div>
+		<div class=imgholder01 id="inovaFull"><img class="img" src="../images/produzido.jpg"></img>
+			<p class=caption><span>The manufactured product was showcased on the House and Gift Fair 2015, in S&atildeo
+					Paulo</span></p>
+		</div>
+		<h2>ROLE IN THE PROJECT AND FINAL THOUGHTS</h2>
+		<h3 class=paratitlecenter>Inova Diamond was the project at which I had the most independence as an intern at
+			Grupo Criativo</h3>
+		<p class="text">Of the design projects I took part during my internship (ranging from food trays to etnography
+			research of artisanal bakers) the Diamond was the longest.
+			I believe it was so especially due to the incentive from coworkers, among them my supervisor, Gabriel
+			Altenhofen, who had designed the previous Inova model, to see how far the design could be pushed and
+			finetuned.
+			Eventhough the ideation and modelling were done mostly solo, input from the team was always present and
+			taken into consideration (such as turning the diamond up, when originally it was inverted). Gabriel was
+			responsible for finetuning the
+			fillets on the six-edge vertex on the bottom side of the grip, that demanded special attention.
+		</p>
+		<h3 class=paratitlecenter id=references>REFERENCES</h3>
+		<p class=text>[1] ITIRO IIDA, Ergonomia: Projeto e Produ&ccedil&atildeo, 2005</p>
+		<div class=divider></div>
+		<div class=subdivider></div>
+	</div>
+
+</body>
+
+</html>

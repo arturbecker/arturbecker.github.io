@@ -1,0 +1,267 @@
+#blowup{
+	margin-bottom: 40px;
+}
+
+#waterblock{
+	height:100%;
+	overflow: hidden;
+}
+
+#waterblockimg{
+	/* width: 100%; */
+}
+#metadata * {
+	background-color: none;
+	color: white;
+}
+
+/* #metadata span { */
+	/* background-color: none; */
+	/* display: initial; */
+	/* background-color: rgba(255, 255, 255, 0.5) */
+/* } */
+
+#opening{
+	width: 30%;
+	position: relative;
+	height: 90%;
+}
+
+#opening img{
+	width: 150%;
+	min-width: 1000px;
+	/* position: absolute; */
+	/* left: -50%; */
+}
+
+#opening div{
+	position: absolute;
+	left: -150%;
+}
+
+#titlecontainer{
+	text-align: center;
+	background-image: url(images/profile.jpg);
+	background-size: cover;
+	background-position: right;
+	background-color: #c1c1c1;
+	/* overflow: hidden; */
+}
+
+#title{
+	color: black;
+}
+
+#placeholder{
+	height: 50vh;
+	width: 20%;
+}
+
+#placeholder, #title{
+	display: inline-block;
+}
+
+h1{
+	text-align: left;
+	bottom: 0;
+}
+
+#wrapper{
+	overflow: hidden;
+}
+
+/* #title{ */
+	/* position: absolute; */
+	/* top: 30%; */
+	/* left: 30%; */
+/* } */
+
+/* #title h1{ */
+	/* color: white; */
+	/* font-family: Nunito; */
+	/* font-weight: 900; */
+/* } */
+
+/* #title h1 span{ */
+	/* background-color: rgba(0,0,0,0.6) */
+/* } */
+
+#content{
+	background-color: #c1c1c1;
+	/* background-image: url(images/bikeRoughCrop06.jpg); */
+	/* background-repeat: no-repeat; */
+	/* background-position: center; */
+	/* background-size: cover; */
+}
+
+.column{
+	vertical-align: top;
+}
+
+.column .text{
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+}
+
+.paratitle, .paratitle:after{
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+
+.inline3{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column3{
+	min-width: 350px;
+	vertical-align: top;
+	width: 30%;
+	display: inline-block;
+	padding-right: 1vw;
+	/* text-align: center; */
+}
+
+.column3 .text{
+	/* text-align: center; */
+}
+
+.column3 h2{
+	font-size: 4em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.column3 img{
+	padding-bottom: 20px;
+	
+	/* width: 90%; */
+}
+
+.column .inlineh2{
+	margin-left: 0px;
+}
+
+.inlineh2{
+	padding-top: 0px;
+}
+
+.column3 .text{
+	width: 100%;
+	min-width: 0px;
+	padding-bottom: 50px;
+}
+
+#preimg{
+	padding-bottom: 0px;
+}
+
+#postitle{
+	padding-top: 100px;
+}
+
+#fullimg{
+	padding-bottom: 200px;
+}
+
+#fullimgconnect{
+	padding-bottom: 100px;
+}
+
+#spanh2{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#green{
+	background-color: lawngreen;
+}
+
+#pink{
+	background-color: pink;
+}
+
+#yellow{
+	background-color: yellow;
+}
+
+/* #green{ */
+	/* background-color: lawngreen; */
+/* } */
+
+/* #pink{ */
+	/* background-color: pink; */
+/* } */
+
+/* #yellow{ */
+	/* background-color: yellow; */
+/* } */
+
+
+
+
+#conclusion{
+	padding-top: 0px;
+}
+
+iframe{
+	width: 100%;
+}
+
+#red a{
+	background-color: transparent;
+}
+
+#lastrow{
+	padding-bottom: 100px;
+}
+
+#nounderpara:after{
+	 width   : 0%;  /* or 100px */
+  border-bottom:0em solid white;
+}
+
+#nounderpara{
+	  padding-bottom: 100px;
+	margin-bottom: 0px;
+}
+
+#workexperience .text{
+	padding-bottom: 0px;
+}
+
+#workexperience{
+	padding-bottom: 100px;
+}
+
+#subcurriculum{
+	font-size: 1.5em;
+	color: white;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 100;
+	padding-bottom: 20px;
+	min-width: 400px;
+}
+
+#title h1 span{
+	position: relative;
+	line-height: 105%;
+	/* background-color: yellow; */
+}
+
+/* .column{ */
+	/* background-color: #c1c1c1; */
+	/* background: -webkit-linear-gradient(right, rgba(0,0,0,0), rgba(193, 193, 193, 0.8) 10%, rgba(193, 193, 193, 0.8) 90%, rgba(0,0,0,0)); */
+	/* background: -moz-linear-gradient(right, rgba(0,0,0,0), rgba(193, 193, 193, 0.8) 10%, rgba(193, 193, 193, 0.8) 90%, rgba(0,0,0,0)); */
+	/* background: -o-linear-gradient(right, rgba(0,0,0,0), rgba(193, 193, 193, 0.8) 10%, rgba(193, 193, 193, 0.8) 90%, rgba(0,0,0,0)); */
+	/* background: linear-gradient(to right, rgba(0,0,0,0), rgba(193, 193, 193, 0.8) 10%, rgba(193, 193, 193, 0.8) 90%, rgba(0,0,0,0)); */
+/* } */
+
+/* .inlineh2{ */
+	/* width: 100%; */
+/* } */

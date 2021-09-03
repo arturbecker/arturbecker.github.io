@@ -1,0 +1,52 @@
+.preload * {
+    transition: none !important;
+}
+
+body {
+    background-color: #ffffff
+}
+
+.description {
+    position: relative;
+    height: fit-content;
+    margin: auto;
+    width: var(--readable-length);
+    /*top: -30vh;
+    left: 50%;
+    left: 50%;
+    transform: translate(-50%, var(--overlap);*/
+    /*transform: translate(0, var(--overlap));*/
+    margin-top: var(--overlap);
+    background-color: rgba(238, 238, 238, 0.6);
+    border-radius: var(--border-radius-L);
+    padding: var(--stillness);
+    backdrop-filter: blur(64px);
+    margin-bottom: var(--silence);
+}
+
+.description h6 {
+    font-size: var(--scream);
+    font-weight: 300;
+}
+
+.hero video {
+    height: 100vh;
+    object-fit: cover;
+    /*max-width: 1920px;*/
+}
+
+.hero img {
+    width: 100%;
+}
+
+main {
+    position: relative;
+}
+
+h2 {
+    color: black;
+}
+
+section p {
+    color: black;
+}

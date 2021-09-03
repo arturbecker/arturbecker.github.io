@@ -1,0 +1,151 @@
+section {
+    /*transform: translate(0, var(--overlap));*/
+    margin-top: var(--overlap);
+    position: relative;
+    margin: auto;
+    width: clamp(320px, 80%, 800px);
+    margin-bottom: var(--stillness);
+}
+
+section * {
+    margin-bottom: var(--breathe);
+}
+
+section h2 {
+    line-height: 110%;
+}
+
+section img {
+    width: 100%;
+}
+
+.full {
+    width: 100%;
+    margin-bottom: var(--void);
+}
+
+.center {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: clamp(320px, 100%, 1280px);
+    margin-bottom: var(--stillness);
+}
+
+.multi-pane {
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: var(--blink)
+}
+
+.contained {
+    width: clamp(320px, 80%, 800px);
+    margin: auto;
+}
+
+.centered {
+    text-align: center;
+}
+
+div.full {
+    background-color: yellow;
+    padding: var(--breathe);
+}
+
+div.full>section, div.full :last-child {
+    margin-bottom: 0px;
+}
+
+.multi-pane div {
+    flex: 1;
+}
+
+.unequal>div {
+    flex: auto;
+}
+
+.multi-pane video {
+    width: 100%;
+}
+
+.two-column {
+    display: flex;
+}
+
+.two-column div:first-child {
+    flex: 1;
+    padding-right: var(--breathe)
+}
+
+.two-column>:last-child {
+    flex: 5;
+}
+
+.caption-column {
+    text-align: right;
+}
+
+.caption-column p {
+    margin-bottom: 0px;
+}
+
+.caption-column p:first-child {
+    margin-bottom: var(--blink);
+}
+
+.multi-pane div img+h6, .multi-pane div img~p {
+    padding-left: var(--blink);
+    padding-right: var(--blink);
+}
+
+.highlight-1 {
+    background-color: chartreuse;
+}
+
+.highlight-2 {
+    background-color: pink;
+}
+
+.highlight-3 {
+    background-color: yellow;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--stillness);
+    height: 128px;
+    background-color: black;
+}
+
+footer a {
+    font-family: "Work Sans", sans-serif;
+    font-size: 2.1rem;
+    font-weight: 500;
+    letter-spacing: 0.015rem;
+    color: white;
+}
+
+/* BREAKPOINT SYSTEM */
+
+@media (max-width: 768px) {
+    main {
+        height: 100vh;
+    }
+    .multi-pane {
+        flex-direction: column;
+    }
+    .two-column {
+        flex-direction: column;
+    }
+    .two-column div:first-child {
+        display: flex;
+        gap: var(--blink);
+    }
+    .two-column div:first-child p {
+        margin-bottom: 0px;
+    }
+}

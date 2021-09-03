@@ -1,0 +1,177 @@
+#graph {
+  background: black;
+  position: relative;
+  width: 100%;
+  color: white;
+}
+
+.grid-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cell-visual-search-interface {
+  grid-area: 7 / 9 / 8 / 10;
+}
+
+#cell-inova {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+#cell-aegro {
+  grid-area: 1 / 9 / 2 / 10;
+}
+
+#cell-piper {
+  grid-area: 3 / 8 / 4 / 9;
+}
+
+#cell-uid-devices {
+  grid-area: 5 / 3 / 6 / 4;
+}
+
+#cell-svir {
+  grid-area: 4 / 5 / 5 / 6;
+}
+
+#cell-recbot {
+  grid-area: 8 / 4 / 9 / 5;
+}
+
+.tile {
+  width: var(--tile-size);
+  height: var(--tile-size);
+  border-radius: var(--border-radius);
+  position: absolute;
+  overflow: hidden;
+  background-color: white;
+}
+
+#tile-container {
+  display: grid;
+  grid-template: repeat(9, 1fr) / repeat(9, 1fr);
+  padding: var(--spacing);
+  height: 100%;
+  width: 100%;
+}
+
+#inova {
+  background-image: url(../images/thumbs/inova2.jpg);
+  background-size: cover;
+  filter: drop-shadow(0px 0px 8px var(--color-inova));
+}
+
+#aegro {
+}
+
+#piper {
+}
+
+#uid-devices {
+  background-image: url(../images/thumbs/uiddevices2.jpg);
+  background-size: cover;
+  filter: drop-shadow(0px 0px 8px var(--color-uid-devices));
+}
+
+#svir {
+}
+
+#visual-search-interface {
+  background-image: url(../images/thumbs/visualsearch.jpg);
+  background-size: cover;
+  filter: drop-shadow(0px 0px 8px var(--color-visual-search-interface));
+}
+
+#recbot {
+  background-image: url(../images/thumbs/recbot.jpg);
+  background-size: cover;
+  filter: drop-shadow(0px 0px 8px var(--color-recbot));
+}
+
+.axis,
+.axis-label {
+  z-index: 0;
+}
+
+.axis {
+  display: block;
+  background-color: white;
+  position: absolute;
+}
+
+#x {
+  width: auto;
+  left: var(--spacing-S);
+  right: var(--spacing-S);
+  height: 1px;
+  top: 50%;
+}
+
+#y {
+  width: 1px;
+  height: auto;
+  top: calc(var(--line-height-p) + var(--spacing-S));
+  bottom: calc(var(--line-height-p) + var(--spacing-S));
+  left: 50%;
+}
+
+.axis-label {
+  position: absolute;
+}
+
+#posy,
+#negy {
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#posy {
+  top: 0;
+  margin-top: var(--spacing-S);
+}
+
+#negy {
+  bottom: 0;
+  margin-bottom: var(--spacing-S);
+}
+
+#posx,
+#negx {
+  top: calc(50%);
+  transform: translate(0, -100%);
+}
+
+#posx {
+  right: 0;
+  margin-right: var(--spacing-S);
+}
+
+#negx {
+  margin-left: var(--spacing-S);
+}
+
+/* BREAKPOINT SYSTEM */
+@media (max-width: 600px) {
+  #negx {
+    /* top: calc(50% - var(--spacing-S)); */
+    top: 50%;
+    transform-origin: top left;
+    transform: rotate(-90deg) translate(-50%);
+  }
+  #posx {
+    /* top: calc(50% - var(--spacing-S)); */
+    top: calc(50% + var(--spacing-S));
+    /* left: calc(100% - 1.2em - var(--spacing-S)); */
+    transform-origin: bottom right;
+    transform: rotate(-90deg) translate(100%);
+    /* transform: rotate(-90deg) translate(-50%); */
+  }
+  #x {
+    /*width: calc(100% - (2 * 1.2em) - (2 * var(--spacing-S)));*/
+    left: calc(1.3em + var(--spacing-S));
+    right: calc(1.3em + var(--spacing-S));
+    width: auto;
+  }
+}

@@ -1,0 +1,322 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+	font-size: small;
+}
+
+#navigation{
+	z-index: 1;
+	width: 100%;
+	background-color: none;
+	position: fixed;
+	font-family: 'Nunito', sans-serif;
+}
+
+#nav1{
+	text-align: left;
+	font-weight: 800;
+}
+
+#nav2, #nav3{
+	text-align: right;
+	font-weight: 400;
+	float: right;
+}
+
+#nav1, #nav2, #nav3{
+	display: inline-block;
+	color: gray;
+	padding-top: 25px;
+	font-size: medium;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: inherit;
+	text-decoration: underline;
+}
+
+#content a{
+	background-color: #b6b6b6;
+}
+
+#red a{
+	background-color: #ebebeb;
+}
+
+#titlecontainer{
+	width: 100%;
+	text-align: center;
+	background-color: #fcca5b;
+}
+
+h1{
+	text-align: left;
+	font-size: 5em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+}
+
+#gif, #title{
+	display: inline-block;
+}
+
+#gif img{
+	height: 90%;
+	/* padding-top: 50px; */
+}
+
+#metadata * {
+	display: inline-block;
+}
+
+#metadata {
+	background-color: none;
+	font-weight: 100;
+}
+
+.metainfo{
+	font-size: 150%;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.metadummy{
+	width: 0px;
+	overflow: hidden;
+	height: 10vh;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.metadummy, .metainfo{
+	vertical-align: middle;
+}
+
+#content{
+	background-color: c1c1c1;
+	width: 100%;
+}
+
+h2{
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 5em;
+	color: white;
+	text-align: left;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-family: Lato;
+	min-width: 400px;
+	font-weight: 100;
+}
+
+.text, .imgtext{
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 2em;
+	color: white;
+	text-align: left;
+	line-height: 1.5em;
+	font-family: Roboto;
+	font-weight: 100;
+}
+
+.text{
+	width: 40%;
+	min-width: 400px;
+	padding-bottom: 100px;
+}
+
+.imgtext{
+	padding-left: 40px;
+}
+
+#renderCinza{
+	width: 80%;
+}
+
+.divider{
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	border-bottom: 1px;
+	border-bottom-color: white;
+	border-bottom-style: dotted;	
+}
+
+.subdivider{
+	padding-top: 100px;
+}
+
+.column{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 400px;
+	width: 49.5%;
+}
+
+.img{
+	width: 100%;
+}
+
+.imgliquid{
+	width: 30%;
+}
+
+#blowup{
+	position: relative;
+}
+
+.pointer{
+	text-align: left;
+	position: absolute;
+	left: 50%;
+	width: 40%;
+}
+
+#pointer01{
+	top: 44.2%;
+}
+
+#pointer02{
+	top: 90%;
+}
+
+.pointer hr{
+	width: 80%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.pointer p{
+	margin-left: 10px;
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.inlineh2{
+	width: 60%;
+}
+
+.inline{
+	min-width: 400px;
+	width: 60%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 100px;
+}
+
+h3{
+	position: relative;
+	text-align: left;
+	font-size: 2.5em;
+	font-family: Roboto;
+	font-weight: 100;
+	color: white;
+	padding-bottom: 0.25em;
+	line-height: 1.5em;
+	margin-bottom: 0.5em;
+	min-width: 400px;
+}
+
+.paratitlecenter:after, .paratitle:after{
+  content : "";
+  position: absolute;
+  left    : 0;
+  bottom  : 0;
+  height  : 0px;
+  width   : 30%;  /* or 100px */
+  border-bottom:0.1em solid white;
+}
+
+#red .paratitle:after, #red .paratitlecenter:after{
+	border-bottom:0.1em solid black;
+}
+
+.paratitle, .paratitle:after{
+	margin-left: 20px;
+	padding-left: 20px;
+}
+
+.paratitlecenter{
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#img01{
+	text-align: center;
+	padding-right: 50px;
+	padding-bottom: 100px;
+}
+
+#red{
+	background-color: white;
+}
+#red .paratitle, #red .divider, #red .text, #red .paratitlecenter, #red .imgtext, #red h2{
+	color: black;
+	border-bottom-color: black;
+}
+
+#inovaFull{
+	padding-bottom: 0px;
+}
+
+.imgholder01, .imgholder02{
+	padding-bottom: 20px;
+	position: relative;
+	min-width: 400px;
+}
+
+.imgholder02{
+	width: 40%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.caption{
+	position: absolute;
+	bottom: 5%;
+	right: 10%;
+	font-size: 1.5em;
+	width: 20%;
+	min-width: 0px;
+	text-align: right;
+	line-height: 1.5em;
+	font-family: Roboto;
+	font-weight: 100;
+	font-size: 2em;
+	color: white;
+}
+
+.caption span{
+	background-color: gray;
+}
+
+#reftext{
+	padding-bottom: 10px;
+}
+
+#footer{
+	font-size: 1.5em;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+span {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}

@@ -1,0 +1,149 @@
+#blowup{
+	margin-bottom: 40px;
+}
+
+#metadata * {
+	background-color: none;
+	color: white;
+}
+
+#opening{
+	width: 30%;
+	position: relative;
+	height: 90%;
+}
+
+#opening img{
+	width: 150%;
+	min-width: 1000px;
+}
+
+#opening div{
+	position: absolute;
+	left: -150%;
+}
+
+#titlecontainer{
+	text-align: center;
+	background-image: url(../images/openingCrop.png);
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(0, 174, 239, 1);
+}
+
+#title{
+	color: white;
+}
+
+#placeholder{
+	height: 90vh;
+	width: 30%;
+}
+
+#placeholder, #title{
+	display: inline-block;
+}
+
+h1{
+	text-align: left;
+	bottom: 0;
+}
+
+#wrapper{
+	overflow: hidden;
+}
+
+#content{
+	background-color: #c1c1c1;
+}
+
+.column{
+	vertical-align: top;
+}
+
+.column .text{
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+}
+
+.paratitle, .paratitle:after{
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+
+.inline3{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column3{
+	min-width: 400px;
+	vertical-align: top;
+	width: 33%;
+	display: inline-block;
+}
+
+.column3 h2{
+	font-size: 4em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.column3 img{
+	padding-bottom: 20px;
+	width: 90%;
+}
+
+.column .inlineh2{
+	margin-left: 0px;
+}
+
+.inlineh2{
+	padding-top: 0px;
+}
+
+#preimg{
+	padding-bottom: 0px;
+}
+
+#postitle{
+	padding-top: 100px;
+}
+
+#fullimg{
+	padding-bottom: 200px;
+}
+
+#fullimgconnect{
+	padding-bottom: 100px;
+}
+
+#spanh2{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#green{
+	background-color: lawngreen;
+}
+
+#pink{
+	background-color: pink;
+}
+
+#yellow{
+	background-color: yellow;
+}
+
+
+
+#conclusion{
+	padding-top: 0px;
+}
+
+iframe{
+	width: 100%;
+}

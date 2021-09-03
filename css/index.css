@@ -1,0 +1,126 @@
+h2 {
+  color: white;
+}
+
+aside {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--spacing-M);
+  max-width: 350px;
+}
+
+aside p {
+  color: white;
+  margin-top: var(--spacing-L);
+}
+
+button {
+  margin-top: var(--spacing-L);
+  padding: var(--spacing-S);
+  width: clamp(150px, 100%, 300px);
+  min-height: 48px;
+  border: 1px white solid;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.curriculum {
+  color: white;
+}
+
+.curriculum h2 {
+  margin-top: var(--spacing-XL);
+  /*margin-bottom: var(--spacing-XL);*/
+  position: relative;
+  width: 740px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--spacing-XL);
+}
+
+.itemCaption {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: right;
+  width: clamp(15ch, 100%, 320px);
+}
+
+.itemCaption p:first-child {
+  margin-top: var(--spacing-XS);
+  margin-bottom: var(--spacing-XS);
+}
+
+.itemMain {
+  padding: 0 var(--spacing-M);
+}
+
+.itemMain h6 {
+  margin-bottom: var(--spacing-S);
+  max-width: 60ch;
+}
+
+.itemMain p {
+  max-width: 70ch;
+}
+
+#footer{
+  margin: var(--spacing-L) 0;
+  padding: 0 var(--spacing-M);
+}
+
+footer h6 {
+  color: white;
+}
+
+/* BREAKPOINT SYSTEM */
+@media (max-width: 768px) {
+  main {
+    height: auto;
+    flex-direction: column;
+  }
+  .item {
+    flex-direction: column;
+  }
+  .itemCaption{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 var(--spacing-M);
+    margin-bottom: var(--spacing-S);
+  }
+  .itemCaption p:first-child{
+    margin: 0;
+  }
+  .itemMain{
+    width: 100%;
+  }
+  .curriculum h2 {
+    width: auto;
+  }
+  #graph {
+    height: 100vh;
+    margin-top: var(--spacing-XL);
+  }
+  aside {
+    max-width: 100%;
+    /*overflow-wrap: break-word;*/
+  }
+}
