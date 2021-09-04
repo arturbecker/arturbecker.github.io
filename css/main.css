@@ -34,7 +34,7 @@
   --spacing-XL: 64px;
   --spacing-XXL: 128px;
 
-  --tile-size: clamp(64px, 8vw, 100px);
+  --tile-size: clamp(64px, 17vw, 100px);
   --card-width: clamp(320px, 64vw, 400px); /* The ratio between card height and width in the vh should match the hardcoded pixels */
   --card-height: clamp(420px, 80vw, 500px);
 

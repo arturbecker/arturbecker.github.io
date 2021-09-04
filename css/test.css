@@ -281,7 +281,7 @@ aside > footer > *{
 
 @media (max-width: 768px) {
     main {
-        height: 175vh;
+        height: 150vh;
         flex-direction: column;
     }
     aside {
