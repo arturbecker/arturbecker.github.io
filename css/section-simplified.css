@@ -1,3 +1,7 @@
+.hero img {
+    margin-top: 0;
+}
+
 .content {
     width: 100%;
 }
@@ -11,15 +15,31 @@
     padding-right: var(--breathe);
 }
 
-.content>*:last-child {
-    margin-bottom: 0;
-    padding-bottom: var(--silence);
+h3, .multi-pane.new-section, .divider {
+    margin-top: var(--silence);
+}
+
+p, img, .multi-pane {
+    margin-top: var(--stillness);
 }
 
 .multi-pane {
     display: flex;
     gap: var(--breathe);
-    margin-bottom: var(--breathe);
+}
+
+/* The content inside multi-panes: */
+
+.multi-pane > div > *:first-child {
+    margin-top: 0;
+}
+
+.multi-pane > div > * {
+    margin-top: var(--breathe);
+}
+
+.section-pane > p {
+    margin-top: var(--stillness);
 }
 
 .multi-pane div {
@@ -39,26 +59,15 @@ div > img {
     width: 100%;
 }
 
-.content>img {
-    margin-bottom: var(--breathe);
-}
-
-img.with-caption {
-    margin-bottom: var(--blink);
-}
-
 .full {
     width: 100%;
-}
-
-img.full {
     padding: 0px;
 }
 
-div.full {
+.divider {
     padding-top: var(--breathe);
     padding-bottom: var(--breathe);
-    background-color: yellow;
+    background-color: #dfdfdf;
 }
 
 div.full > * {
@@ -71,9 +80,18 @@ div.full > * {
 }
 
 .outro {
+    margin-top: var(--silence);
     background-color: #dfdfdf;
 }
 
+/* Outro exception to margin-top */
+
+.outro *:first-child {
+    margin-top: 0;
+    padding-top: var(--silence);
+}
+
+/*
 h3 {
     padding-top: var(--stillness);
     margin-bottom: var(--breathe);
@@ -94,6 +112,7 @@ img+h6, .sketchfab-embed-wrapper+h6 {
 img:first-child, .sketchfab-embed-wrapper:first-child {
     margin-bottom: var(--blink);
 }
+*/
 
 /* BREAKPOINT SYSTEM */
 

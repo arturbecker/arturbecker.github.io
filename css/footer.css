@@ -1,16 +1,24 @@
 footer {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: var(--stillness);
-    height: 128px;
     background-color: black;
+    margin-top: var(--stillness);
 }
 
 footer a {
+    display: block;
+    transition: all var(--duration-short);
+    flex: 1;
+    padding-top: var(--silence);
+    padding-bottom: var(--silence);
+    text-align: center;
     font-family: "Work Sans", sans-serif;
     font-size: 2.1rem;
     font-weight: 500;
     letter-spacing: 0.015rem;
     color: white;
+    text-decoration: none;
+}
+
+footer > a:hover {
+    background-color: var(--on-black-subtle);
 }
