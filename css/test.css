@@ -186,6 +186,10 @@ aside p {
     margin-top: var(--spacing-L);
 }
 
+.pointing-down {
+  display: none;
+}
+
 button {
   margin-top: var(--spacing-L);
   padding: var(--spacing-S);
@@ -195,6 +199,7 @@ button {
   border-radius: 8px;
   background: transparent;
   color: white;
+  cursor: pointer;
 }
 
 .axis,
@@ -299,5 +304,11 @@ button {
     left: calc(1.3em + var(--spacing-S));
     right: calc(1.3em + var(--spacing-S));
     width: auto;
+  }
+  .pointing-left {
+    display: none;
+  }
+  .pointing-down {
+    display: initial;
   }
 }

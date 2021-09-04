@@ -82,8 +82,9 @@
 #piper.tile {
     left: 80%;
     top: 20%;
-    background-image: url(../images/piper-card.png);
+    background-image: url(../images/thumbs/piper-2.png);
     background-size: cover;
+    background-color: white;
 }
 
 #piper.card {
