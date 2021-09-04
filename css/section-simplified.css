@@ -28,6 +28,10 @@ p, img, .multi-pane {
     gap: var(--breathe);
 }
 
+.triptych {
+    width: clamp(320px, 100%, 1024px);
+}
+
 /* The content inside multi-panes: */
 
 .multi-pane > div > *:first-child {
@@ -44,6 +48,7 @@ p, img, .multi-pane {
 
 .multi-pane div {
     flex: 1;
+    /*min-width: var(--triptych-pane);*/
 }
 
 .multi-pane img {

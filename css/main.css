@@ -17,7 +17,8 @@
 
   --overlap: -20vh;
 
-  --readable-length: clamp(320px, 90%, 800px);
+  --readable-length: clamp(320px, 100%, 680px);
+  --triptych-pane: 320px; 
 
 }
 
