@@ -50,6 +50,12 @@ function openCard(event) {
     tile.style.transform = "translateX(" + cardLeft + "px) translateY(" + cardTop + "px)"
     //tile.style.transform = ;
 
+    // Make the tile clickable when it's in card form:
+    // We use a small delay so that it doesn't open instantly
+    setTimeout(function() {
+        tile.setAttribute( "onClick", "goToProject(event)" );;
+      }, 1);
+
 }
 
 function closeCard(event) {
@@ -63,6 +69,9 @@ function closeCard(event) {
     tile.classList.remove("card");
     tile.style.zIndex = "0"
     tile.style.transform = "translateX(0px) translateY(0px)"
+
+    // Remove the onClick event when the card closes:
+    tile.removeAttribute( "onClick");
 }
 
 function goToProject(event) {
@@ -110,5 +119,5 @@ function goToProject(event) {
     //console.log(history)
     setTimeout(function() {
         window.location.href = tile.id+".html";
-      }, 300);
+      }, 350);
 }
