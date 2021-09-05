@@ -298,6 +298,10 @@ aside>footer>* {
   position: relative;
 }
 
+.curriculum > *:last-child {
+  padding-bottom: var(--silence);
+}
+
 .side-caption {
   position: absolute;
   top: 0;
