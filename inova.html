@@ -1,49 +1,56 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Inova Diamond</title>
 	<link rel="stylesheet" href="../css/main.css" />
 	<link rel="stylesheet" href="../css/test.css" />
 	<link rel="stylesheet" href="../css/project-page.css" />
-	<link rel="stylesheet" href="../css/sections.css" />
+	<link rel="stylesheet" href="../css/section-simplified.css" />
+	<link rel="stylesheet" href="../css/footer.css" />
 	<link rel="stylesheet" href="../css/projects.css" />
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 </head>
 
-<body>
+<body class="preload">
+
 	<main>
-		<div class="tile card hero" id="inova" onmouseenter="openCard(event)" onmouseleave="closeCard(event)"
-			onclick="goToProject(event)">
+		<div class="tile card hero" id="inova">
 			<img src="images/gif03d.gif" alt="">
 		</div>
+		<a class="on-light" href="test.html"><h6>artur becker</h6></a>
 	</main>
+
 	<div class="description">
-		<h6>Inova Diamond</h6>
-		<p class="caption">2015 - Product design - Professional Project - Four weeks</p>
-		<p>Product design, geometric flatware designed to not tumble over.</p>
+		<div>
+			<h6>Inova Diamond</h6>
+			<p>2015</p>
+		</div>
+		<p>Product design, geometric flatware designed to not tumble over. This was my first professional industrial
+			design
+			project, during an internship. I spent around four weeks working on it from loose concept to render-ready CAD
+			model. It went on to be manufactured by the company that comissioned the project.</p>
 	</div>
 
-
-	<section>
-		<h2>
+	<section class="content">
+		<h3>
 			Futuristc,<br>
 			floating<br>
 			flatware
-		</h2>
+		</h3>
 		<p>Inova Diamond is a flatware series designed for a large brazilian manufacturer. The Inova line bestows the
 			feature of preventing the blade of the silverware from touching the surface beneath it. The Diamond models,
 			thus, keep such feature while being
 			reshaped with a completely different design language. The main goal of this project
 			was to aid the manufacturer to position a simple, low cost polymer flatware
 			as innovative and premium.</p>
-	</section>
 
-	<img class="full" src="../images/renderCinzaSombra.png">
+		<img class="full" src="../images/renderCinzaSombra.png">
 
-	<section>
-		<h2>Designing the diamond</h2>
+		<h3>Designing the diamond</h3>
 		<p>The geometric lines culminate in the diamond-shaped back of the grip. The reasoning behind choosing a mostly
 			geometric, polygonal design language was
 			to deviate from <a href="../images/inovadplus.png">the previous Inova line</a>, and most similar
@@ -51,9 +58,7 @@
 			that employ curved, organic forms on the grips. It has a similar mass to its predecessor, not
 			increasing manufacturing costs.</p>
 		<img src="../images/diamondBack.png" alt="">
-	</section>
 
-	<section>
 		<p>Organic doesn't necessarily mean "ergonomic", and vice-versa
 			During the ideation phase, the main theoretical touchstone was brazilian
 			ergonomist Itiro Iida's chapter on
@@ -69,30 +74,47 @@
 			stability
 			and handling comfort.
 		</p>
-		<img src="../images/trianglesMediumSquare.png" alt="">
-	</section>
 
-	<section>
-		<h2>Rapid prototyping</h2>
+		<img src="../images/trianglesMediumSquare-annotated.png" alt=""></img>
+
+		<h3>Rapid prototyping</h3>
 		<p>Prototyping was crucial to find a pleasant grip that still wouldn't tumble over
 			The sequential iterations of the grip design (from top to bottom) were 3D printed in two
 			halves, and had blades provided by the manufacturer attached to one end.
 			The last one, in black, is an injection test. The prototypes were then brought to lunch at restaurants,
 			to be tested.
 		</p>
-		<img src="../images/prototipos10.jpg"></img>
-	</section>
 
-	<section>
-		<h2>Production</h2>
+		<img src="../images/prototipos10.jpg"></img>
+
+		<h3>Production</h3>
 		<p>The manufactured product was showcased on the House and Gift Fair 2015, in São
 			Paulo</span></p>
 		</p>
+
+		<img src="../images/produzido.jpg" alt="" class="full with-caption"></img>
+
 	</section>
 
-	<img src="../images/produzido.jpg" alt="" class="full"></img>
+	<section id="references" class="content outro">
+		<h3>Lessons learned</h3>
+		<p> Inova Diamond was the project at which I had the most independence as an intern at
+			Grupo Criativo. It was the long of the design projects I took part during my internship (which ranged from
+			food trays to etnography
+			research of artisanal bakers).
+			I believe it was so especially due to the incentive from coworkers, among them my supervisor, Gabriel
+			Altenhofen, who had designed the previous Inova model, to see how far the design could be pushed and
+			finetuned.
+		</p>
+		<p>
+			Eventhough the ideation and modelling were done mostly solo, input from the team was always present and
+			taken into consideration (such as turning the diamond up, when originally it was upside down).
+			To hand-off for manufacturing, Gabriel was
+			responsible for finetuning the
+			fillets on the six-edge vertex on the bottom side of the grip, that demanded special attention.
+		</p>
 
-	<section>
+		<h3>References</h3>
 		<p id="references">[1] ITIRO IIDA, Ergonomia: Projeto e Produ&ccedil&atildeo, 2005</p>
 	</section>
 
@@ -101,5 +123,8 @@
 		<a href="#">Back to top</a>
 	</footer>
 
-	</body>
-	</html>
+<script src="js/project-page.js"></script>
+
+</body>
+
+</html>

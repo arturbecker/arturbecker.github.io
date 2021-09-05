@@ -38,6 +38,14 @@ main a:hover {
     background-color: black;
 }
 
+main .on-light {
+    color: black;
+}
+
+main .on-light:hover {
+    background-color: white;
+}
+
 .description {
     position: relative;
     height: fit-content;
