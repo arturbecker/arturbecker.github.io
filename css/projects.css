@@ -150,3 +150,29 @@
     width: 100%;
     transform: translate(0%, 0%);
 }
+
+#keyboard.tile {
+    left: 40%;
+    top: 50%;
+    background-image: url(../images/thumbs/keyboard.png);
+    background-size: cover;
+}
+
+#keyboard.card {
+    background-image: none;
+    background-color: white;
+}
+
+#keyboard.card img {
+    transform: translate(-20%, 0%);
+}
+
+#keyboard.hero {
+    left: 0px;
+    top: 0px;
+}
+
+#keyboard.hero img {
+    width: 100%;
+    transform: translate(0%, 0%);
+}
