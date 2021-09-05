@@ -22,11 +22,11 @@ h3, .multi-pane.new-section, .divider {
     margin-top: var(--silence);
 }
 
-p, img, .multi-pane {
+p, img, .multi-pane, .content>video {
     margin-top: var(--stillness);
 }
 
-.with-caption+* {
+.with-caption+* , .content h6{
     margin-top: var(--breathe)
 }
 
@@ -95,7 +95,7 @@ div.full > * {
 
 .outro {
     margin-top: var(--silence);
-    background-color: #dfdfdf;
+    background-color: var(--on-white-subtle);
 }
 
 /* Outro exception to margin-top */

@@ -8,50 +8,58 @@
 	<link rel="stylesheet" href="../css/main.css" />
 	<link rel="stylesheet" href="../css/test.css" />
 	<link rel="stylesheet" href="../css/project-page.css" />
-	<link rel="stylesheet" href="../css/sections.css" />
+	<link rel="stylesheet" href="../css/section-simplified.css" />
+	<link rel="stylesheet" href="../css/footer.css" />
 	<link rel="stylesheet" href="../css/projects.css" />
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 </head>
 
-<body>
+
+<body class="preload">
+
 	<main>
-		<div class="tile card hero" id="uid-devices" onmouseenter="openCard(event)" onmouseleave="closeCard(event)"
-			onclick="goToProject(event)">
+		<div class="tile card hero" id="uid-devices">
 			<video src="images/video5.mp4" poster="images/poster.jpg" autoplay loop></video>
+			<a class="on-light" href="test.html">
+				<h6>artur becker</h6>
+			</a>
 		</div>
 	</main>
+
 	<div class="description">
-		<h6>UID Devices</h6>
-		<p class="caption">2015 - Interaction Design - 1-month student project</p>
-		<p>A pop-up exhibition for UID'15. UID Yearly events are often home to an anxious lot. With this in
-			mind, and in order to engage the public in a pop-up exhibition, we designed
+		<div>
+			<h6>UID Devices</h6>
+			<p>2015</p>
+		</div>
+		<p>An interactive pop-up exhibition for UID'15.
+			UID Yearly events are often home to an anxious lot. With this in
+			mind, and in order to engage the public in a pop-up exhibition, Felix Noller and me designed
 			a set of "UID Devices" that could be interacted with throughout the event.</p>
 	</div>
-	<section>
-		<h2>The users</h2>
+
+	<section class="content">
+		<h3>The users</h3>
 		<p> People attending UID'15. Especially students presenting thesis projects, or people
 			eager to network, that might be feeling anxious and stage-frightened.</p>
 		<img src="../images/uid152.jpg"></img>
-	</section>
-	<section>
-		<h2>The needs</h2>
+
+		<h3>The needs</h3>
 		<p>Having had presentation classes (and classes with presentations) throughout the year,
 			we were able to spot common afflictions to a person speaking publicly.</p>
-	</section>
-	<section class="multi-pane">
+
+	<div class="multi-pane triptych">
 		<div><img src="../images/presenting.jpg"></img></div>
 		<div><img src="../images/UIDneedsCrop.jpg"></img></div>
-	</section>
-	<section>
-		<h2>Ideation</h2>
+	</div>
+
+		<h3>Ideation</h3>
 		<p>We chose three questions that seemed the most common: How do I look? Am I being heard? Are my
 			hands shaking?
 			If people could have an answer to these questions, perhaps they'd be a little less
 			anxious before presenting or talking to someone.</p>
 		<img src="../images/UIDsketches.jpg" alt="">
-	</section>
-	<section>
-		<h2>Concept</h2>
+
+		<h3>Concept</h3>
 		<h6><span class="highlight-1">REASSURING</span>,</h6>
 		<h6><span class="highlight-2">FUNNY</span> + </h6>
 		<h6><span class="highlight-3">SPARK INTERACTION</span></h6>
@@ -68,8 +76,8 @@
 				id="highlight-3">gamification of the ranking system</span> sparks interaction between atendees,
 			as they feel compelled to "challenge" each other.
 		</p>
-	</section>
-	<section class="multi-pane">
+
+	<div class="multi-pane triptych">
 		<div>
 			<img src="../images/voiceinspectorCrop.jpg"></img>
 			<h6>NO. 1 - Voice Inspector
@@ -101,20 +109,29 @@
 
 			</p>
 		</div>
-	</section>
-	<section>
-		<h2>Process video</h2>
+	</div>
+
+		<h3>Process video</h3>
 		<p>
 			The devices were hung on the entrance foyer wall of the Umea Institute of Design during it's
 			annual event in 2015: UID'15. The video below documents the process as well as the public
 			response to them.
 		</p>
-	</section>
+
 	<video class="center" src="images/uid-devices-video.mp4" controls></video>
+
+	</section>
+
+	<section class="content outro">
+
+	</section>
+
 	<footer>
 		<a href="test.html">Back to projects</a>
 		<a href="#">Back to top</a>
 	</footer>
+
+	<script src="js/project-page.js"></script>
 
 </body>
 
