@@ -17,6 +17,8 @@
   --on-black-nearly: #2B2222;
   --on-black-readable: #999;
 
+  --on-white-readable: #828282;
+
   --overlap: -20vh;
 
   --readable-length: clamp(320px, 100%, 680px);

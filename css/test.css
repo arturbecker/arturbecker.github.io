@@ -57,6 +57,10 @@ body {
   margin-bottom: var(--feather);
 }
 
+.helper {
+    color: var(--on-white-readable);
+}
+
 .card .description {
   width: 100%;
   text-align: left;
