@@ -64,10 +64,10 @@ main a:hover {
 .hero video {
     height: 100vh;
     object-fit: cover;
-    /*max-width: 1920px;*/
+    max-width: 1920px;
 }
 
-.hero img {
+.hero img, .hero video {
     width: 100%;
 }
 

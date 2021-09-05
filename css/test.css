@@ -118,14 +118,16 @@ h6 {
   transition: font-size var(--duration-long), font-weight var(--duration-long);
 }
 
-.hero .description h6 {
+.hero .description h6:not(.helper) {
   font-size: var(--scream);
   font-weight: 300;
 }
 
-.hero .description>.caption {
-  opacity: 1;
-  height: 1.3rem;
+.hero .description .helper {
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: var(--line-height-p);
+  color: black;
 }
 
 /*.summary {

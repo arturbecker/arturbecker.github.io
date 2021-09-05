@@ -52,6 +52,8 @@
 }
 
 #uid-devices.hero img {
+    width: 100%;
+    max-width: 1280px;
     transform: translate(0%, 0%);
 }
 
@@ -76,6 +78,7 @@
 }
 
 #svir.hero img {
+    max-width: 1920px;
     width: 100%;
 }
 
@@ -97,6 +100,7 @@
 }
 
 #piper.hero img {
+    max-width: 1920px;
     width: 100%;
 }
 
@@ -173,5 +177,7 @@
 }
 
 #keyboard.hero img {
+    width: 100%;
+    max-width: 1920px;
     transform: translate(0%, 0%);
 }
