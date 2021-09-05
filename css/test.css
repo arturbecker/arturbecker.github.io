@@ -162,7 +162,7 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: var(--spacing-M);
+    padding: var(--stillness);
     /*width: 350px;*/
     flex: 1;
 }
@@ -178,6 +178,7 @@ aside {
   .hidden {
       width: auto;
       height: 0px;
+      margin-bottom: 0px;
   }
 }
 
@@ -286,16 +287,23 @@ aside > footer > *{
     }
     aside {
         /*height: fit-content;*/
-        width: clamp(320px, 80%, 800px);
-        padding: var(--stillness) 0 0 0;
+        width: var(--readable-length);
+        /*padding: var(--stillness) 0 0 0;*/
+        padding-bottom: 0;
         margin: auto;
         justify-content: start;
         gap: var(--stillness);
+        margin-bottom: var(--silence);
         /*overflow-wrap: break-word;*/
     }
     #graph {
-        margin-top: var(--silence);
         flex: 4;
+    }
+    .pointing-left {
+      display: none;
+    }
+    .pointing-down {
+      display: initial;
     }
 }
 
@@ -320,11 +328,5 @@ aside > footer > *{
     left: calc(1.3em + var(--spacing-S));
     right: calc(1.3em + var(--spacing-S));
     width: auto;
-  }
-  .pointing-left {
-    display: none;
-  }
-  .pointing-down {
-    display: initial;
   }
 }

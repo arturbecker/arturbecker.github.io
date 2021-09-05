@@ -128,4 +128,9 @@ img:first-child, .sketchfab-embed-wrapper:first-child {
     .multi-pane {
         flex-direction: column;
     }
+    .multi-pane img {
+        display: block;
+        max-width: 320px;
+        margin: auto;
+    }
 }
