@@ -75,15 +75,17 @@ function closeCard(event) {
 }
 
 function goToProject(event) {
-    var tile = ''
+    //var tile = ''
 
-    if (event.path[0].localName == 'img') {
+    //if (event.path[0].localName == 'img') {
         //console.log("Clicked on the image")
-        tile = document.getElementById(event.path[1].id);
-    } else {
+    //    tile = document.getElementById(event.path[1].id);
+    //} else {
         //console.log("Clicked on the div")
-        tile = document.getElementById(event.target.id);
-    }
+    //    tile = document.getElementById(event.target.id);
+    //}
+
+    const tile = document.getElementById(event.currentTarget.id);
 
     tile.classList.add("hero");
     tile.style.transform = "translateX(0px) translateY(0px)";
