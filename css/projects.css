@@ -164,7 +164,7 @@
 }
 
 #keyboard.card img {
-    transform: translate(-20%, 0%);
+    transform: translate(-18%, 0%);
 }
 
 #keyboard.hero {
@@ -173,6 +173,5 @@
 }
 
 #keyboard.hero img {
-    width: 100%;
     transform: translate(0%, 0%);
 }
