@@ -60,7 +60,7 @@ p, img, .multi-pane {
     /*min-width: var(--triptych-pane);*/
 }
 
-.multi-pane img {
+.multi-pane img, .multi-pane video{
     width: 100%;
 }
 
@@ -147,7 +147,7 @@ img:first-child, .sketchfab-embed-wrapper:first-child {
     .multi-pane {
         flex-direction: column;
     }
-    .multi-pane img, .multi-pane .sketchfab-embed-wrapper {
+    .multi-pane img, .multi-pane video, .multi-pane .sketchfab-embed-wrapper {
         display: block;
         max-width: 320px;
         margin: auto;

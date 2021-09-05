@@ -31,6 +31,107 @@
             new physical keyboard layouts. Quarantine design, experimenting with new physical keyboard layouts.</p>
     </div>
 
+    <section class="content">
+        <h3>A 40-year old research question</h3>
+        <p>In 1981, Donald Norman co-authored a paper that questioned the usefulness of learning alternative keyboard
+            layouts <a href="#references">[1]</a>.
+            They concluded the paper urging the readers to not "waste time re-arranging the letters", but rather to
+            explore
+            the other aspects of keyboard design that are poorly justified:
+            it's size, the stagerring of keys, the fact that it is not separated in two halves - one for each hand, or
+            the
+            apparent wasteful use of the thumb, among others.
+        </p>
+
+        <img src="images/keyboard-redox-building.jpg" alt="" class="full with-caption">
+        <p>My first time building a custom keyboard - a Redox wireless</p>
+
+        <p>In 2021, most of these physical layout decisions are still unjustified. Research has shown that keys are much
+            larger than they have to be, even for the people with large hands and thick fingers <a href="#references">[2]</a><a href="#references">[3]</a>.
+            Splitting the keyboard in two halves and angling them is also believed to be more ergonomical <a href="#references">[4]</a><a href="#references">[5]</a>.
+        </p>
+
+        <p>Nowadays, some of these issues are addressed by custom-built keyboards, such as the Redox, or even 3-d
+            printing
+            one, such as the Dactyl Manuform.
+            I wanted to try designing a keyboard from scratch that applied these research findings, while also being
+            reasonably simple to produce.
+        </p>
+
+        <h3>Digital mockups</h3>
+        <img src="images/keyboard-touchscreen-mockup.png" alt="">
+        <p>One challenging aspect of designing a new physycal layout is trying it out. I made a semi-funcional prototype
+            where I could iteratively design a layout in Figma and export the .svg to try it out on my touchscreen. It
+            provides feedback for which key is being pressed, something that a pure paper mockup can't. However, it is
+            still
+            far from the experience of typing on real keys, and is constrained to a single plane. <a
+                href="https://github.com/arturbecker/Keyboard-Layout-Tester">The code is available on my Github</a></p>
+
+        <h3>Physical mockups</h3>
+        <p>
+            To test the positioning of a "thumb cluster", and figure out if it could be any comfortable at all, I built
+            some
+            physical mockups:
+        </p>
+        <section class="multi-pane triptych">
+            <div>
+                <video src="images/keyboard-physical-mockup-1-video-crop.mp4" autoplay loop></video>
+                <h6>1) Cardboard mockup with regular keys</h6>
+                <p>The keys were too high-profile, requiring a "claw-like" hand posture to use. Not very comfortable</p>
+            </div>
+            <div>
+                <img src="images/keyboard-physical-mockup-2.png" alt="">
+                <h6>2) Cardboard mockup with low-profile keys</h6>
+                <p>Low-profile keys, felt better, but the 90-degree angle for the thumb cluster still felt too open.</p>
+            </div>
+            <div>
+                <img src="images/keyboard-physical-mockup-3.png" alt="">
+                <h6>3) Clay mockup with low-profile keys and customized ("dremelled") keycaps</h6>
+                <p>I included customized, smaller keycaps to get a feel of the whole keyboard, with they reduced pitch I
+                    aim
+                    to use.</p>
+            </div>
+        </section>
+
+        <h3>Next steps</h3>
+        <p>This project is still a work in progress. The goal now is building a functional prototype, using the
+            layout tested (physically and digitally) above. Being more familiar with Python than C, I plan to use a
+            Raspberry Pi Pico as the
+            controller.</p>
+
+        <img src="images/keyboard-raspberry-pico.png" alt="">
+
+    </section>
+
+    <section class="content outro" id="references">
+        <h3>References</h3>
+        <p>[1] D. Norman and D. Fisher, “Why Alphabetic Keyboards Are Not Easy to Use: Keyboard Layout Doesn’t Much
+            Matter,” Human Factors, vol. 24, pp. 509–519, Jan. 1984, doi: 10.1177/001872088202400502.
+        </p>
+        <p>
+            [2] A. Pereira, C.-M. Hsieh, C. Laroche, and D. Rempel, “The Effect of Keyboard Key Spacing on Typing Speed,
+            Error, Usability, and Biomechanics, Part 2: Vertical Spacing,” Hum Factors, vol. 56, no. 4, pp. 752–759,
+            Jun. 2014, doi: 10.1177/0018720813502524.
+        </p>
+        <p>[3] H. Madison, A. Pereira, M. Korshøj, L. Taylor, A. Barr, and D. Rempel, “Mind the Gap: The Effect of
+            Keyboard Key Gap and Pitch on Typing Speed, Accuracy, and Usability, Part 3,” Human factors, vol. 57, May
+            2015, doi: 10.1177/0018720815587423.
+        </p>
+        <p>
+            [4] D. Rempel, A. Barr, D. Brafman, and E. Young, “The effect of six keyboard designs on wrist and forearm
+            postures,” Applied Ergonomics, vol. 38, no. 3, pp. 293–298, May 2007, doi: 10.1016/j.apergo.2006.05.001.
+        </p>
+        <p>
+            [5] D. Rempel, D. Nathan-Roberts, B. Y. Chen, and D. Odell, “The effects of split keyboard geometry on upper
+            body postures,” Ergonomics, vol. 52, no. 1, pp. 104–111, Jan. 2009, doi: 10.1080/00140130802481040.
+        </p>
+    </section>
+
+    <footer>
+        <a href="test.html">Back to projects</a>
+        <a href="#keyboard">Back to top</a>
+    </footer>
+
 </body>
 
 </html>
