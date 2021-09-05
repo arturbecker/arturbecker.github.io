@@ -1,50 +1,50 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: black;
+  background: black;
 }
 
 .tile img {
-    height: 125px;
-    opacity: 0;
-    transition: width var(--duration-medium), height var(--duration-medium);
+  height: 125px;
+  opacity: 0;
+  transition: width var(--duration-medium), height var(--duration-medium);
 }
 
 .tile {
-    color: black;
-    overflow: hidden;
-    position: absolute;
-    transition: width var(--duration-medium), height var(--duration-medium), left var(--duration-medium), top var(--duration-medium), border-radius var(--duration-medium), transform var(--duration-medium);
-    animation: fadein var(--duration-medium);
-    width: var(--tile-size);
-    height: var(--tile-size);
-    border-radius: 16px;
-    text-align: center;
+  color: black;
+  overflow: hidden;
+  position: absolute;
+  transition: width var(--duration-medium), height var(--duration-medium), left var(--duration-medium), top var(--duration-medium), border-radius var(--duration-medium), transform var(--duration-medium);
+  animation: fadein var(--duration-medium);
+  width: var(--tile-size);
+  height: var(--tile-size);
+  border-radius: 16px;
+  text-align: center;
 }
 
 .tile .description {
-    display: none;
-    padding: 12px 24px 12px 24px;
+  display: none;
+  padding: 12px 24px 12px 24px;
 }
 
 .card {
-    width: var(--card-width);
-    /*height: var(--card-width) + 100px;*/
-    height: var(--card-height);
-    background-color: white;
-    border-radius: 16px;
-    cursor: pointer;
+  width: var(--card-width);
+  /*height: var(--card-width) + 100px;*/
+  height: var(--card-height);
+  background-color: white;
+  border-radius: 16px;
+  cursor: pointer;
 }
 
 .card img {
-    opacity: 1;
-    display: inline-block;
-    height: var(--card-width);
-    width: auto;
+  opacity: 1;
+  display: inline-block;
+  height: var(--card-width);
+  width: auto;
 }
 
 .description {
@@ -90,7 +90,7 @@ body {
   overflow: visible;
 }
 
-.hero img, .hero video{
+.hero img, .hero video {
   /*width: 100%;*/
   height: 100%;
   object-fit: cover;
@@ -113,12 +113,12 @@ body {
 }
 
 h6 {
-transition: font-size var(--duration-long), font-weight var(--duration-long);
+  transition: font-size var(--duration-long), font-weight var(--duration-long);
 }
 
 .hero .description h6 {
-font-size: var(--scream);
-font-weight: 300;
+  font-size: var(--scream);
+  font-weight: 300;
 }
 
 .hero .description>.caption {
@@ -139,32 +139,32 @@ font-weight: 300;
 }*/
 
 main {
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
 }
 
 #graph {
-    flex: 5;
-    /*width: 100%;*/
-    color: white;
-    position: relative;
+  flex: 5;
+  /*width: 100%;*/
+  color: white;
+  position: relative;
 }
 
 h2 {
-    color: white;
+  color: white;
 }
 
 aside {
-    transition: all var(--duration-long);
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: var(--stillness);
-    /*width: 350px;*/
-    flex: 1;
+  transition: all var(--duration-long);
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--stillness);
+  /*width: 350px;*/
+  flex: 1;
 }
 
 .hidden {
@@ -176,15 +176,15 @@ aside {
 
 @media (max-width: 768px) {
   .hidden {
-      width: auto;
-      height: 0px;
-      margin-bottom: 0px;
+    width: auto;
+    height: 0px;
+    margin-bottom: 0px;
   }
 }
 
 aside p {
-    color: white;
-    margin-top: var(--spacing-L);
+  color: white;
+  margin-top: var(--spacing-L);
 }
 
 .pointing-down {
@@ -206,18 +206,17 @@ button:hover {
   background-color: var(--on-black-subtle);
 }
 
-aside > footer {
+aside>footer {
   display: flex;
   flex-direction: column;
   gap: var(--breathe);
 }
 
-aside > footer > *{
+aside>footer>* {
   margin-top: 0;
 }
 
-.axis,
-.axis-label {
+.axis, .axis-label {
   z-index: 0;
 }
 
@@ -247,8 +246,7 @@ aside > footer > *{
   position: absolute;
 }
 
-#posy,
-#negy {
+#posy, #negy {
   left: 50%;
   transform: translate(-50%);
 }
@@ -263,8 +261,7 @@ aside > footer > *{
   margin-bottom: var(--spacing-S);
 }
 
-#posx,
-#negx {
+#posx, #negx {
   top: calc(50%);
   transform: translate(0, -100%);
 }
@@ -278,36 +275,100 @@ aside > footer > *{
   margin-left: var(--spacing-S);
 }
 
-/* BREAKPOINT SYSTEM */
+.curriculum h2 {
+  margin-top: var(--silence);
+}
 
-@media (max-width: 768px) {
-    main {
-        height: 150vh;
-        flex-direction: column;
-    }
-    aside {
-        /*height: fit-content;*/
-        width: var(--readable-length);
-        /*padding: var(--stillness) 0 0 0;*/
-        padding-bottom: 0;
-        margin: auto;
-        justify-content: start;
-        gap: var(--stillness);
-        margin-bottom: var(--silence);
-        /*overflow-wrap: break-word;*/
-    }
-    #graph {
-        flex: 4;
-    }
-    .pointing-left {
-      display: none;
-    }
-    .pointing-down {
-      display: initial;
-    }
+.curriculum h6 {
+  margin-top: var(--stillness);
+}
+
+.curriculum p {
+  margin-top: var(--feather);
+}
+
+.curriculum>* {
+  width: var(--readable-length);
+  margin: auto;
+}
+
+.curriculum-item {
+  position: relative;
+}
+
+.side-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  padding-right: var(--breathe);
+  text-align: right;
+}
+
+.side-caption p {
+  margin-top: 0;
+}
+
+.side-caption p:first-child {
+  margin-bottom: var(--feather);
+}
+
+@media (max-width: 960px) {
+  .side-caption {
+    position: initial;
+    transform: translateX(0);
+    display: flex;
+    gap: var(--blink)
+  }
+  .side-caption p {
+    margin-top: var(--feather);
+  }
+  .side-caption p:first-child {
+    margin-bottom: 0;
+  }
 }
 
 /* BREAKPOINT SYSTEM */
+
+@media (max-width: 768px) {
+  main {
+    height: 150vh;
+    flex-direction: column;
+  }
+  aside {
+    /*height: fit-content;*/
+    width: var(--readable-length);
+    /*padding: var(--stillness) 0 0 0;*/
+    padding-bottom: 0;
+    margin: auto;
+    justify-content: start;
+    gap: var(--stillness);
+    margin-bottom: var(--silence);
+    /*overflow-wrap: break-word;*/
+  }
+  #graph {
+    flex: 4;
+  }
+  .pointing-left {
+    display: none;
+  }
+  .pointing-down {
+    display: initial;
+  }
+  .two-column {
+    flex-direction: column;
+  }
+  .two-column div:first-child {
+    display: flex;
+    gap: var(--blink);
+  }
+  .two-column div:first-child p {
+    margin-bottom: 0px;
+  }
+}
+
+/* BREAKPOINT SYSTEM */
+
 @media (max-width: 600px) {
   #negx {
     /* top: calc(50% - var(--spacing-S)); */
