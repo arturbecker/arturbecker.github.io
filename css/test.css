@@ -88,6 +88,7 @@ body {
   height: 100vh;
   border-radius: 0px;
   overflow: visible;
+  cursor: initial;
 }
 
 .hero img, .hero video {

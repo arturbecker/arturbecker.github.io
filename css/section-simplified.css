@@ -2,6 +2,10 @@
     margin-top: 0;
 }
 
+.description * {
+    margin-top: 0;
+}
+
 .content {
     width: 100%;
 }
@@ -11,9 +15,8 @@
     width: var(--readable-length);
     margin-left: auto;
     margin-right: auto;
-    padding-left: var(--breathe);
-    padding-right: var(--breathe);
 }
+
 
 h3, .multi-pane.new-section, .divider {
     margin-top: var(--silence);
@@ -23,9 +26,15 @@ p, img, .multi-pane {
     margin-top: var(--stillness);
 }
 
+.with-caption+* {
+    margin-top: var(--breathe)
+}
+
 .multi-pane {
     display: flex;
     gap: var(--breathe);
+    padding-left: var(--breathe);
+    padding-right: var(--breathe);
 }
 
 .triptych {
@@ -129,10 +138,16 @@ img:first-child, .sketchfab-embed-wrapper:first-child {
     main {
         height: 100vh;
     }
+    .content > * {
+        width: 100%;
+        padding-left: var(--stillness);
+        padding-right: var(--stillness);
+    }
+
     .multi-pane {
         flex-direction: column;
     }
-    .multi-pane img {
+    .multi-pane img, .multi-pane .sketchfab-embed-wrapper {
         display: block;
         max-width: 320px;
         margin: auto;
