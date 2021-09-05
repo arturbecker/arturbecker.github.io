@@ -290,6 +290,8 @@ aside>footer>* {
 .curriculum>* {
   width: var(--readable-length);
   margin: auto;
+  padding-left: var(--stillness);
+  padding-right: var(--stillness);
 }
 
 .curriculum-item {
