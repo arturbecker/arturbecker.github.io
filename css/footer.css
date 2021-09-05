@@ -1,7 +1,6 @@
 footer {
     display: flex;
-    background-color: black;
-    margin-top: var(--stillness);
+    background-color: #2B2222;
 }
 
 footer a {

@@ -96,6 +96,10 @@ div.full > * {
     padding-top: var(--silence);
 }
 
+.outro *:last-child {
+    padding-bottom: var(--silence);
+}
+
 /*
 h3 {
     padding-top: var(--stillness);

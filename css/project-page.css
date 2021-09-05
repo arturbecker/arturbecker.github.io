@@ -6,6 +6,38 @@ body {
     background-color: #ffffff
 }
 
+main a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all var(--duration-short);
+    padding: var(--silence);
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-size: 2.1rem;
+    font-weight: 500;
+    letter-spacing: 0.015rem;
+    color: white;
+    text-decoration: none;
+    animation: appear var(--duration-medium);
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(+50%)
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0%)
+    }
+}
+
+main a:hover {
+    background-color: black;
+}
+
 .description {
     position: relative;
     height: fit-content;
