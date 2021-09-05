@@ -35,6 +35,7 @@ body {
   width: var(--card-width);
   /*height: var(--card-width) + 100px;*/
   height: var(--card-height);
+  /*height: 510px;*/
   background-color: white;
   border-radius: 16px;
   cursor: pointer;
@@ -53,12 +54,12 @@ body {
   transition: all var(--duration-long);
 }
 
-.description>h6 {
+.description h6 {
   margin-bottom: var(--feather);
 }
 
 .helper {
-    color: var(--on-white-readable);
+  color: var(--on-white-readable);
 }
 
 .card .description {
@@ -69,16 +70,12 @@ body {
   /*display: flex;
   flex-direction: column;
   justify-content: space-between;*/
-  height: 100px;
+  height: 110px
 }
 
 .description div:first-child {
   display: flex;
   justify-content: space-between;
-}
-
-.description div:first-child h6:last-child {
-  color: gray;
 }
 
 /*.description>.caption { 
@@ -302,7 +299,7 @@ aside>footer>* {
   position: relative;
 }
 
-.curriculum > *:last-child {
+.curriculum>*:last-child {
   padding-bottom: var(--silence);
 }
 
@@ -341,6 +338,12 @@ aside>footer>* {
 /* BREAKPOINT SYSTEM */
 
 @media (max-width: 768px) {
+  .card .description > p {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
   main {
     height: 150vh;
     flex-direction: column;

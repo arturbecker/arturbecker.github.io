@@ -40,7 +40,7 @@
 
   --tile-size: clamp(64px, 17vw, 100px);
   --card-width: clamp(320px, 64vw, 400px); /* The ratio between card height and width in the vh should match the hardcoded pixels */
-  --card-height: clamp(420px, 80vw, 500px);
+  --card-height: clamp(405px, 80vw, 510px);
 
   --border-radius: 16px;
   --border-radius-L: 32px;
