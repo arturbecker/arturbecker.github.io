@@ -5,3 +5,7 @@ section p {
   section h6 {
     color: white;
   }
+
+.curriculum .caption {
+  color: var(--on-black-readable)
+}
