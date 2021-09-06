@@ -10,13 +10,12 @@
     width: 100%;
 }
 
-.content > * {
+.content>* {
     display: block;
     width: var(--readable-length);
     margin-left: auto;
     margin-right: auto;
 }
-
 
 h3, .multi-pane.new-section, .divider {
     margin-top: var(--silence);
@@ -26,15 +25,15 @@ p, img, .multi-pane, .content>video {
     margin-top: var(--stillness);
 }
 
-.with-caption+* , .content h6{
+.with-caption+*, .content h6 {
     margin-top: var(--breathe)
 }
 
 .multi-pane {
     display: flex;
     gap: var(--breathe);
-    padding-left: var(--breathe);
-    padding-right: var(--breathe);
+    /*    padding-left: var(--breathe);
+    padding-right: var(--breathe);*/
 }
 
 .triptych {
@@ -43,15 +42,15 @@ p, img, .multi-pane, .content>video {
 
 /* The content inside multi-panes: */
 
-.multi-pane > div > *:first-child {
+.multi-pane>div>*:first-child {
     margin-top: 0;
 }
 
-.multi-pane > div > * {
+.multi-pane>div>* {
     margin-top: var(--breathe);
 }
 
-.section-pane > p {
+.section-pane>p {
     margin-top: var(--stillness);
 }
 
@@ -60,7 +59,7 @@ p, img, .multi-pane, .content>video {
     /*min-width: var(--triptych-pane);*/
 }
 
-.multi-pane img, .multi-pane video{
+.multi-pane img, .multi-pane video {
     width: 100%;
 }
 
@@ -69,7 +68,7 @@ iframe {
     height: 300px;
 }
 
-div > img {
+div>img {
     width: 100%;
 }
 
@@ -84,7 +83,7 @@ div > img {
     background-color: #dfdfdf;
 }
 
-div.full > * {
+div.full>* {
     width: var(--readable-length);
     margin: 0 auto;
 }
@@ -138,12 +137,11 @@ img:first-child, .sketchfab-embed-wrapper:first-child {
     main {
         height: 100vh;
     }
-    .content > * {
+    .content>* {
         width: 100%;
         padding-left: var(--stillness);
         padding-right: var(--stillness);
     }
-
     .multi-pane {
         flex-direction: column;
     }
@@ -151,5 +149,12 @@ img:first-child, .sketchfab-embed-wrapper:first-child {
         display: block;
         max-width: 320px;
         margin: auto;
+    }
+}
+
+@media (max-width: 1280px) {
+    .multi-pane {
+        padding-left: var(--breathe);
+        padding-right: var(--breathe);
     }
 }
