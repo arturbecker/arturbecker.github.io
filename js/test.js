@@ -12,7 +12,7 @@ function openCard(event) {
     console.log(vw, vh, availableHorizontalSpace, availableVerticalSpace)
 
     const clamp_css_w = [320, 0.64, 400] // Replace this number with the .css value for --card-width and --card-height
-    const clamp_css_h = [420, 0.8, 500] 
+    const clamp_css_h = [405, 0.8, 510] 
 
     //if (clamp_css[1]*vw < clamp_css[0] || clamp_css[1]*vw > clamp_css[2]) {
     //    console.log(clamp_css[1]*vw, "is outside the clamping bounds")
