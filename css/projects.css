@@ -33,7 +33,7 @@
 
 #uid-devices.tile {
     left: 30%;
-    top: 40%;
+    top: 30%;
     background-image: url(../images/thumbs/uiddevices.jpg);
     background-size: cover;
 }
@@ -66,8 +66,8 @@
 }*/
 
 #svir.tile {
-    left: 50%;
-    top: 40%;
+    left: 65%;
+    top: 45%;
     background-image: url(../images/thumbs/svir.png);
     background-size: cover;
 }
@@ -88,7 +88,7 @@
 
 #piper.tile {
     left: 80%;
-    top: 20%;
+    top: 25%;
     background-image: url(../images/thumbs/piper-2.png);
     background-size: cover;
     background-color: white;
@@ -110,7 +110,7 @@
 
 #recbot.tile {
     left: 30%;
-    top: 70%;
+    top: 65%;
     background-image: url(../images/thumbs/recbot.jpg);
     background-size: cover;
 }
@@ -135,7 +135,7 @@
 
 #visual-search.tile {
     left: 80%;
-    top: 70%;
+    top: 65%;
     background-image: url(../images/thumbs/visualsearch.jpg);
     background-size: cover;
 }
@@ -160,7 +160,7 @@
 }
 
 #keyboard.tile {
-    left: 40%;
+    left: 35%;
     top: 50%;
     background-image: url(../images/thumbs/keyboard.png);
     background-size: cover;
