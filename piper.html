@@ -8,30 +8,38 @@
   <link rel="stylesheet" href="../css/main.css" />
   <link rel="stylesheet" href="../css/test.css" />
   <link rel="stylesheet" href="../css/project-page.css" />
-  <link rel="stylesheet" href="../css/sections.css" />
+  <link rel="stylesheet" href="../css/section-simplified.css" />
+  <link rel="stylesheet" href="../css/footer.css" />
   <link rel="stylesheet" href="../css/projects.css" />
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 </head>
 
 <body class="preload">
   <main>
-    <div class="tile card hero" id="piper" onmouseenter="openCard(event)" onmouseleave="closeCard(event)"
-      onclick="goToProject(event)">
+    <div class="tile card hero" id="piper">
       <img src="images/piper-mockup.png" alt="">
     </div>
+    <a class="on-light" href="test.html">
+      <h6>artur becker</h6>
+    </a>
   </main>
+
   <div class="description">
-    <h6>Piper</h6>
-    <p class="caption">2019 - UX/UI Design - Three-month professional project</p>
-    <p>Software for Oil & Gas pipeline design. Summer internship project at the Digital Services and Innovation (DSI)
+    <div>
+      <h6>Piper</h6>
+      <p>2019</p>
+    </div>
+    <p>UX/UI Design, software for designing rigid Oil & Gas pipelines.
+      Summer internship project at the Digital Services and Innovation (DSI)
       department at TechnipFMC. DSI’s goal is to act as an innovation hub inside of the massive organization it is in. I
       joined three other interns (Helene Stenstadvold the designer, Anthony Genson the developer and Piri Babayev the
       data scientist) to form a squad to tackle one such innovation: re-thinking rigid pipeline design.
     </p>
   </div>
 
-  <section>
-    <h2>Discovery</h2>
+  <section class="content">
+
+    <h3>Discovery</h3>
     <p>The project started with a kick-off discovery and framing (DnF) workshop with senior members of the department,
       stakeholders (aka the rigid pipeline engineering manager), and our day-to-day ally in the project: André Levy the
       rigid
@@ -40,12 +48,10 @@
       The purpose of the DnF was to help our squad establish an initial understanding of the problem domain, and try to
       start forming a shared vision for the project.
     </p>
-    <img src="images/piper-post-it.jpg" alt="">
+    <img class="with-caption" src="images/piper-post-it.jpg" alt="">
     <p>One of the outputs of the Discovery and Framing workshop</p>
-  </section>
 
-  <section>
-    <h2>UX research</h2>
+    <h3>UX research</h3>
     <p>
       Following the DnF, we immersed ourselves in all things subsea engineering. This ranged from trying to use the
       current tools the subsea engineers had (a collection of spreadsheets for doing the several needed calculations to
@@ -60,16 +66,26 @@
       a common platform to enable both
       management and engineers to perform their best work.
     </p>
-  </section>
 
-  <section class="multi-pane">
-    <div><img src="images/piper-arne-persona.jpg" alt=""></div>
-    <div><img src="images/piper-john-persona.jpg" alt=""></div>
-    <div><img src="images/piper-whiteboard-1.png" alt=""></div>
-  </section>
+    <div class="multi-pane triptych">
+      <div><img src="images/piper-arne-persona.jpg" alt="">
+      <p>
+        Our manager persona
+      </p>
+      </div>
+      <div><img src="images/piper-john-persona.jpg" alt="">
+        <p>
+          One of our user journeys - a new engineering intern
+        </p>
+      </div>
+      <div><img src="images/piper-whiteboard-1.png" alt="">
+        <p>
+          Whiteboarding session with doubts we had about the pipeline design process
+        </p>
+      </div>
+    </div>
 
-  <section>
-    <h2>Product design</h2>
+    <h3>Product design</h3>
     <p>We started designing the core of our product - basically an authoring tool for rigid pipelines - that would
       enable us to gather all the pipeline design information in one place (well, the Cloud). Having the data in one
       place would then make analyzing it much easier (than hunting for spreadsheets of past projects, scattered across
@@ -83,35 +99,34 @@
       design space to make the most use of the newfound efficiency. Thus we performed a new iterative round of
       interaction design and usability testing.
     </p>
-  </section>
 
-  <section class="multi-pane">
-    <div><img src="images/piper-paper-prototype.jpg" alt=""></div>
-    <div><img src="images/piper-medium-prototype.jpg" alt="">
-      <p>Helene and André going through a medium-fidelity prototype</p>
+    <div class="multi-pane">
+      <div><img src="images/piper-paper-prototype.jpg" alt="">
+        <p>An early paper mockup of Piper</p>
+      </div>
+      <div>
+        <img src="images/piper-medium-prototype.jpg" alt="">
+        <p>Helene and André going through a medium-fidelity prototype</p>
+      </div>
     </div>
-  </section>
 
-  <section>
-    <h2>Piper prototype walkthrough</h2>
-  </section>
+    <h3>Piper prototype walkthrough</h3>
 
-  <section class="multi-pane">
-    <div><img src="images/piper-wizard.gif" alt="">
-      <h6>Beginner-friendly</h6>
-      <p>Creating a new rigid pipeline design on Piper through the wizard</p>
+    <div class="multi-pane triptych">
+      <div><img src="images/piper-wizard.gif" alt="">
+        <h6>Beginner-friendly</h6>
+        <p>Creating a new rigid pipeline design on Piper through the wizard</p>
+      </div>
+      <div><img src="images/piper-browse.gif" alt="">
+        <h6>Manager-loved</h6>
+        <p>Browsing the multitude of previous designs, in a single place with the help of visualizations</p>
+      </div>
+      <div><img src="images/piper-explore.gif" alt="">
+        <h6>Pushing the envelope</h6>
+        <p>Calculating similar designs automatically to help the engineers spot possible solutions</p>
+      </div>
     </div>
-    <div><img src="images/piper-browse.gif" alt="">
-      <h6>Manager-loved</h6>
-      <p>Browsing the multitude of previous designs, in a single place with the help of visualizations</p>
-    </div>
-    <div><img src="images/piper-explore.gif" alt="">
-      <h6>Pushing the envelope</h6>
-      <p>Calculating similar designs automatically to help the engineers spot possible solutions</p>
-    </div>
-  </section>
 
-  <section>
     <p>We cleverly named our product “Piper” (Helene's idea). In its core Piper is a welcoming and supportive rigid
       pipeline design
       tool. It makes use of a <span class="highlight-2">wizard-like design to guide newcomers</span>, while keeping
@@ -126,9 +141,22 @@
     </p>
   </section>
 
+  <section class="content outro">
+    <h3>Role and conclusion</h3>
+    <p>Piper was the outcome from my summer internship at TechnipFMC. The MVP of the software (comprising the
+      wizard-like creation of pipeline designs) was completed by Anthony and Piri during the internship.
+      Me and Helene went forward with the prototype a little more, towards way to use Piper to explore and compare
+      pipelines, as well as making it easier to find the best designs.</p>
+    <p>
+      The whole team participated on the design and software modelling decisions we took along the way. My background in
+      Data Visualization informed the concepts for browsing the pipeline designs using dimensional reduction and the
+      matrix-like disposition of the designs. The final Figma prototype of those parts of Piper was also done by me.
+    </p>
+  </section>
+
   <footer>
-		<a href="test.html">Back to projects</a>
-		<a href="#">Back to top</a>
-	</footer>
+    <a href="test.html">Back to projects</a>
+    <a href="#">Back to top</a>
+  </footer>
 
 </body>
