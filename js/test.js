@@ -148,7 +148,12 @@ function clearProjects() {
     //tiles.forEach(element => console.log(element));
 }
 
-window.addEventListener("unload", function (event) {
+//window.addEventListener("unload", function (event) {
+//    clearProjects()
+//    console.log("unloaded page")
+//});
+
+window.addEventListener("pagehide", function (event) {
     clearProjects()
-    console.log("unloaded page")
+    console.log("hid page")
 });
